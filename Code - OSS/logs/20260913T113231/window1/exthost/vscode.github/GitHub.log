@@ -1,0 +1,2 @@
+2026-09-13 11:32:38.399 [info] Log level: Info
+2026-09-13 12:33:42.866 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for adnaneSaad/Saad-Programming/b5fe8c5cac4c8927894bc2d9795512a91ca0da35: HttpError

@@ -1,0 +1,222 @@
+2026-09-14 17:36:47.601 [info] Extension host with pid 13081 started
+2026-09-14 17:36:47.601 [info] Skipping acquiring lock for /home/sadnane/.config/Code - OSS/User/workspaceStorage/40167a66189cc7c0fe58f2d5007ed9f0.
+2026-09-14 17:36:47.953 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-14 17:36:48.132 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-14 17:36:48.217 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: eeyore.yapf
+2026-09-14 17:36:48.877 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-09-14 17:36:50.334 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-14 17:36:51.240 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-14 17:36:51.595 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-14 17:36:52.085 [info] Eager extensions activated
+2026-09-14 17:36:53.205 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-09-14 17:36:56.330 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-14 17:36:56.341 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-14 17:36:57.303 [info] ExtensionService#_doActivateExtension eeyore.yapf, startup: false, activationEvent: 'onLanguage:python'
+2026-09-14 17:36:57.367 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-09-14 17:36:57.679 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-14 17:36:59.772 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-14 17:38:57.239 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-09-14 18:06:58.303 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-09-14 18:11:41.627 [error] [vscode.emmet] provider FAILED
+2026-09-14 18:11:41.627 [error] Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 18:11:42.912 [error] [vscode.emmet] provider FAILED
+2026-09-14 18:11:42.912 [error] Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 18:11:57.096 [error] [vscode.emmet] provider FAILED
+2026-09-14 18:11:57.096 [error] Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 18:12:15.662 [error] [vscode.emmet] provider FAILED
+2026-09-14 18:12:15.663 [error] TypeError: Cannot read properties of undefined (reading 'start')
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:8333)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 19:05:09.087 [error] [vscode.emmet] provider FAILED
+2026-09-14 19:05:09.087 [error] Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 19:07:49.072 [info] Extension host terminating: received terminate message from renderer
+2026-09-14 19:07:49.106 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.re [as deactivate] (/home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.36.0-universal/dist/extension.js:2:770294)
+	at D_._deactivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:14930)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:12457
+	at Array.map (<anonymous>)
+	at D_._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:12445)
+	at D_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:12796)
+	at i.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:550:1072)
+	at pa (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:11797)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:9939)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 19:07:49.122 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3663)
+	at R.logTrace (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:344782)
+	at Object.log (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:338436)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:29563
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:29758
+	at ie (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:30123)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:24918
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:24938)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-09-14 19:07:49.146 [error] Error: Channel has been closed
+	at r (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3935)
+	at Object.info (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:4305)
+	at Xb.info (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:14:709)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:28:36147)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-14 19:07:49.151 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3663)
+	at P.logOutputMessage (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2100381)
+	at P.error (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2100272)
+	at ChildProcess.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2317508)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-14 19:07:51.098 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:551:3663)
+	at R.error (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:344196)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:352383
+	at async e.deactivate (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:380407)
+	at async Promise.all (index 12)
+	at async D_._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:12480)
+2026-09-14 19:07:51.098 [info] Extension host with pid 13081 exiting with code 0

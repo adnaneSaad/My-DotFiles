@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Propo', monospace",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "[python]": {
+        "editor.defaultFormatter": "eeyore.yapf"
+    },
+    "python.terminal.useEnvFile": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.html": "workbench.editor.browser"
+    }
+}

@@ -1,0 +1,23 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Midori-VQ09T3.desktop
+x-scheme-handler/https=userapp-Midori-VQ09T3.desktop
+x-scheme-handler/chrome=userapp-Midori-VQ09T3.desktop
+text/html=userapp-Midori-VQ09T3.desktop
+application/x-extension-htm=userapp-Midori-VQ09T3.desktop
+application/x-extension-html=userapp-Midori-VQ09T3.desktop
+application/x-extension-shtml=userapp-Midori-VQ09T3.desktop
+application/xhtml+xml=userapp-Midori-VQ09T3.desktop
+application/x-extension-xhtml=userapp-Midori-VQ09T3.desktop
+application/x-extension-xht=userapp-Midori-VQ09T3.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Midori-VQ09T3.desktop;
+x-scheme-handler/https=userapp-Midori-VQ09T3.desktop;
+x-scheme-handler/chrome=userapp-Midori-VQ09T3.desktop;
+text/html=userapp-Midori-VQ09T3.desktop;
+application/x-extension-htm=userapp-Midori-VQ09T3.desktop;
+application/x-extension-html=userapp-Midori-VQ09T3.desktop;
+application/x-extension-shtml=userapp-Midori-VQ09T3.desktop;
+application/xhtml+xml=userapp-Midori-VQ09T3.desktop;
+application/x-extension-xhtml=userapp-Midori-VQ09T3.desktop;
+application/x-extension-xht=userapp-Midori-VQ09T3.desktop;

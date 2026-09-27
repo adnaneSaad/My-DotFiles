@@ -1,0 +1,6 @@
+2026-09-21 21:50:20.804 [warning] Dir "/home/sadnane/Saad-Programming/.pixi/envs" is not watchable (directory does not exist)
+2026-09-21 21:50:21.603 [info] Python interpreter path: ./saad-lab/bin/python
+2026-09-21 21:50:21.779 [info] > pyenv which python
+2026-09-21 21:50:21.780 [info] cwd: .
+2026-09-21 21:50:29.343 [info] Starting Jedi language server for Saad-Programming.
+2026-09-22 18:48:32.966 [error] Python server exited with code 0

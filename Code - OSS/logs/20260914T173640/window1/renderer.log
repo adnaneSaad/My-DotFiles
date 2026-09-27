@@ -1,0 +1,222 @@
+2026-09-14 17:36:43.691 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 17:36:43.725 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 29ms.
+2026-09-14 17:36:44.372 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 17:36:44.983 [info] Started local extension host with pid 13081.
+2026-09-14 17:36:45.630 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-14 17:36:45.631 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-14 17:36:45.632 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-14 17:36:45.818 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-14 17:36:48.013 [info] [AgentHost:renderer] Protocol connection established; clientId=7b97c5c1-d3b7-408f-b189-b46a7efc00f3
+2026-09-14 17:36:49.034 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 17:36:54.022 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 17:36:54.382 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-14 17:36:54.813 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-14 17:36:55.290 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-14 17:36:56.565 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:684:29151)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:687:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at Module._load (node:internal/modules/cjs/loader:1301:5)
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18068)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:684:28873)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:676:26740)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.require (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.TQa [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6954:1385)
+	at xAn (/usr/lib/code/extensions/copilot/dist/extension.js:1073:8320)
+	at RQa (/usr/lib/code/extensions/copilot/dist/extension.js:6954:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:19039)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:18749)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:16723
+	at async Mb._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:16021)
+	at async Mb._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:15963)
+	at async Mb._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:15330)
+2026-09-14 17:36:57.363 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1129:12)
+    at require.resolve (node:internal/modules/helpers:171:31)
+    at resolve (data:text/javascript;base64,CglpbXBvcnQgeyBjcmVhdGVSZXF1aXJlLCBpc0J1aWx0aW4gfSBmcm9tICdub2RlOm1vZHVsZSc7CglpbXBvcnQgeyBwYXRoVG9GaWxlVVJMLCBmaWxlVVJMVG9QYXRoIH0gZnJvbSAnbm9kZTp1cmwnOwoJaW1wb3J0IHsgYXBwZW5kRmlsZVN5bmMgfSBmcm9tICdub2RlOmZzJzsKCglsZXQgYXNhclJlcXVpcmU7CglsZXQgcmVzb3VyY2VzUGF0aDsKCWxldCB0cmFjZTsKCglmdW5jdGlvbiBzZXR1cFRyYWNlKHNpbmspIHsKCQlpZiAoIXNpbmspIHsgcmV0dXJuOyB9CgkJY29uc3QgcHJlZml4ID0gJ1thc2FyLXJlc29sdmVdICc7CgkJaWYgKHNpbmsgPT09ICcxJyB8fCBzaW5rID09PSAndHJ1ZScgfHwgc2luayA9PT0gJ29uJyB8fCBzaW5rID09PSAnc3RkZXJyJykgewoJCQl0cmFjZSA9IG1zZyA9PiB7IHRyeSB7IHByb2Nlc3Muc3RkZXJyLndyaXRlKHByZWZpeCArIG1zZyArICdcbicpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0gfTsKCQl9IGVsc2UgewoJCQkvLyBBbnkgb3RoZXIgdmFsdWUgaXMgdHJlYXRlZCBhcyBhIGxvZyBmaWxlIHBhdGggdG8gYXBwZW5kIHRvLgoJCQl0cmFjZSA9IG1zZyA9PiB7IHRyeSB7IGFwcGVuZEZpbGVTeW5jKHNpbmssIHByZWZpeCArIG1zZyArICdcbicpOyB9IGNhdGNoIHsgLyogaWdub3JlICovIH0gfTsKCQl9CgkJdHJhY2UoJ3RyYWNpbmcgZW5hYmxlZCAobm9kZSAnICsgcHJvY2Vzcy52ZXJzaW9ucy5ub2RlICsgJyk7IHJlc291cmNlc1BhdGg9JyArIHJlc291cmNlc1BhdGgpOwoJfQoKCS8vIFRydWUgb25seSBmb3IgKmJhcmUgcGFja2FnZSBzcGVjaWZpZXJzKiDigJQgdGhlIGV4YWN0IGlucHV0cyBOb2RlIHJvdXRlcyB0bwoJLy8gaXRzIFBBQ0tBR0VfUkVTT0xWRSAobm9kZV9tb2R1bGVzIHdhbGsgLyBzZWxmLXJlZmVyZW5jZSAvICdleHBvcnRzJy8nbWFpbicpLgoJLy8gIC0gcmVsYXRpdmUgKCcuLycsICcuLi8nKSBhbmQgYWJzb2x1dGUgKCcvJykgcGF0aHMgLT4gbmV3IFVSTChzcGVjaWZpZXIsIGJhc2UpCgkvLyAgLSAnI25hbWUnIHN1YnBhdGggaW1wb3J0cyAgICAgICAgICAgICAgICAgICAgICAgICAtPiBQQUNLQUdFX0lNUE9SVFNfUkVTT0xWRQoJLy8gIC0gVVJMLXNjaGVtZSBzcGVjaWZpZXJzICgnZmlsZTonLCAnZGF0YTonLCAnbm9kZTonLCAnZWxlY3Ryb246JywgLi4uKSAtPiB1c2VkIHZlcmJhdGltCglmdW5jdGlvbiBpc0JhcmVQYWNrYWdlU3BlY2lmaWVyKHNwZWNpZmllcikgewoJCWlmIChzcGVjaWZpZXIgPT09ICcnKSB7IHJldHVybiBmYWxzZTsgfQoJCWNvbnN0IGMgPSBzcGVjaWZpZXJbMF07CgkJaWYgKGMgPT09ICcuJyB8fCBjID09PSAnLycgfHwgYyA9PT0gJyMnKSB7IHJldHVybiBmYWxzZTsgfQoJCXJldHVybiAhVVJMLmNhblBhcnNlKHNwZWNpZmllcik7Cgl9CgoJLy8gRWxlY3Ryb24gaW5qZWN0cyBhIHN5bnRoZXRpYyAnZWxlY3Ryb24nIG1vZHVsZSAoYWxzbyByZWFjaGFibGUgdmlhIHRoZQoJLy8gJ2VsZWN0cm9uL21haW4nLCAnZWxlY3Ryb24vY29tbW9uJyBhbmQgJ2VsZWN0cm9uL3JlbmRlcmVyJyBhbGlhc2VzKSB0aGF0CgkvLyB0aGUgbG9hZGVyIHJlc29sdmVzIHRvIHRoZSAnZWxlY3Ryb246JyBVUkwgc2NoZW1lIHJhdGhlciB0aGFuIGEgcmVhbCBmaWxlLgoJLy8gJ25vZGU6bW9kdWxlI2lzQnVpbHRpbicgZG9lcyBub3QgcmVjb2duaXplIGl0LCBzbyB3ZSBkZXRlY3QgaXQgZXhwbGljaXRseQoJLy8gYW5kIHRyZWF0IGl0IGxpa2UgYSBOb2RlIGJ1aWx0LWluOiBpdCBsaXZlcyBpbiB0aGUgcnVudGltZSwgbmV2ZXIgaW4KCS8vICdub2RlX21vZHVsZXMnLCBhbmQgbXVzdCBuZXZlciBiZSByZWRpcmVjdGVkIGludG8gdGhlIGFyY2hpdmUuCglmdW5jdGlvbiBpc0VsZWN0cm9uQnVpbHRpbihzcGVjaWZpZXIpIHsKCQlyZXR1cm4gc3BlY2lmaWVyID09PSAnZWxlY3Ryb24nIHx8IHNwZWNpZmllci5zdGFydHNXaXRoKCdlbGVjdHJvbi8nKTsKCX0KCglmdW5jdGlvbiBub3JtYWxpemVEcml2ZUxldHRlcihwYXRoKSB7CgkJaWYgKHByb2Nlc3MucGxhdGZvcm0gPT09ICd3aW4zMicKCQkJJiYgcGF0aC5sZW5ndGggPj0gMgoJCQkmJiAocGF0aC5jaGFyQ29kZUF0KDApID49IDY1ICYmIHBhdGguY2hhckNvZGVBdCgwKSA8PSA5MCB8fCBwYXRoLmNoYXJDb2RlQXQoMCkgPj0gOTcgJiYgcGF0aC5jaGFyQ29kZUF0KDApIDw9IDEyMikKCQkJJiYgcGF0aC5jaGFyQ29kZUF0KDEpID09PSA1OCkgewoJCQlyZXR1cm4gcGF0aFswXS50b0xvd2VyQ2FzZSgpICsgcGF0aC5zbGljZSgxKTsKCQl9CgkJcmV0dXJuIHBhdGg7Cgl9CgoJLy8gRXh0cmFjdCB0aGUgcGFja2FnZSBuYW1lIGZyb20gYSBiYXJlIHNwZWNpZmllciwgZS5nLgoJLy8gJ2Zvby9saWIveC5qcycgLT4gJ2ZvbycsICdAc2NvcGUvYmFyL2JheicgLT4gJ0BzY29wZS9iYXInLgoJZnVuY3Rpb24gcGFja2FnZU5hbWVPZihzcGVjaWZpZXIpIHsKCQlpZiAoc3BlY2lmaWVyWzBdID09PSAnQCcpIHsKCQkJY29uc3QgZmlyc3RTbGFzaCA9IHNwZWNpZmllci5pbmRleE9mKCcvJyk7CgkJCWlmIChmaXJzdFNsYXNoID09PSAtMSkgeyByZXR1cm4gc3BlY2lmaWVyOyB9CgkJCWNvbnN0IHNlY29uZFNsYXNoID0gc3BlY2lmaWVyLmluZGV4T2YoJy8nLCBmaXJzdFNsYXNoICsgMSk7CgkJCXJldHVybiBzZWNvbmRTbGFzaCA9PT0gLTEgPyBzcGVjaWZpZXIgOiBzcGVjaWZpZXIuc2xpY2UoMCwgc2Vjb25kU2xhc2gpOwoJCX0KCQljb25zdCBzbGFzaCA9IHNwZWNpZmllci5pbmRleE9mKCcvJyk7CgkJcmV0dXJuIHNsYXNoID09PSAtMSA/IHNwZWNpZmllciA6IHNwZWNpZmllci5zbGljZSgwLCBzbGFzaCk7Cgl9CgoJZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGluaXRpYWxpemUoeyByZXNvdXJjZXNQYXRoOiByZXNQYXRoLCBhc2FyUGF0aCwgdHJhY2VTaW5rIH0pIHsKCQlpZiAoYXNhclBhdGgpIHsKCQkJcmVzb3VyY2VzUGF0aCA9IG5vcm1hbGl6ZURyaXZlTGV0dGVyKHJlc1BhdGgpOwoJCQkvLyBBIHJlcXVpcmUgcm9vdGVkIGF0IHRoZSBhcmNoaXZlOiAncmVxdWlyZS5yZXNvbHZlKCIuLzxtb2R1bGU+IiknCgkJCS8vIHJlc29sdmVzIGludG8gJzxhc2FyUGF0aD4vPG1vZHVsZT4nICh0b3AtbGV2ZWwgbGF5b3V0KS4gVGhlIGxlYWRpbmcKCQkJLy8gJy4vJyBpcyByZXF1aXJlZCBzbyByZXNvbHV0aW9uIGlzIHJlbGF0aXZlIHRvIHRoZSBhcmNoaXZlIHJvb3QgcmF0aGVyCgkJCS8vIHRoYW4gYSBiYXJlLXNwZWNpZmllciBub2RlX21vZHVsZXMgd2FsayAodGhlIGFyY2hpdmUgZGlyZWN0b3J5IGlzCgkJCS8vIG5hbWVkIG5vZGVfbW9kdWxlcy5hc2FyLCBzbyBhIGJhcmUgd2FsayB3b3VsZCBuZXZlciBmaW5kIGl0KS4KCQkJYXNhclJlcXVpcmUgPSBjcmVhdGVSZXF1aXJlKGFzYXJQYXRoICsgJy94LmpzJyk7CgkJfQoJCXNldHVwVHJhY2UodHJhY2VTaW5rKTsKCX0KCglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlpZiAodHJhY2UpIHsgdHJhY2UoJ21hcCAiZnMiIC0+IG5vZGU6b3JpZ2luYWwtZnMgKGZyb20gJyArIGNvbnRleHQucGFyZW50VVJMICsgJyknKTsgfQoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJaWYgKGFzYXJSZXF1aXJlICYmIGNvbnRleHQucGFyZW50VVJMICYmIGlzQmFyZVBhY2thZ2VTcGVjaWZpZXIoc3BlY2lmaWVyKSAmJiAhaXNCdWlsdGluKHNwZWNpZmllcikgJiYgIWlzRWxlY3Ryb25CdWlsdGluKHNwZWNpZmllcikpIHsKCQkJbGV0IHBhcmVudFBhdGg7CgkJCXRyeSB7IHBhcmVudFBhdGggPSBub3JtYWxpemVEcml2ZUxldHRlcihmaWxlVVJMVG9QYXRoKGNvbnRleHQucGFyZW50VVJMKSk7IH0gY2F0Y2ggeyBwYXJlbnRQYXRoID0gdW5kZWZpbmVkOyB9CgkJCWlmIChwYXJlbnRQYXRoICYmIHBhcmVudFBhdGguc3RhcnRzV2l0aChyZXNvdXJjZXNQYXRoKSkgewoJCQkJaWYgKHRyYWNlKSB7IHRyYWNlKCdyZXNvbHZlICInICsgc3BlY2lmaWVyICsgJyIgZnJvbSAiJyArIGNvbnRleHQucGFyZW50VVJMICsgJyInKTsgfQoJCQkJLy8gVHJ5IHRoZSBkZWZhdWx0IHJlc29sdXRpb24gZmlyc3Qgc28gYW4gaW1wb3J0ZXIgdGhhdCBzaGlwcyBpdHMgb3duCgkJCQkvLyBkZXBlbmRlbmNpZXMgKGUuZy4gYSBidWlsdC1pbiBleHRlbnNpb24gdGhhdCBidW5kbGVzIGEgZGlmZmVyZW50IGNvcHkKCQkJCS8vIG9mIGEgcGFja2FnZSkgcmVzb2x2ZXMgYWdhaW5zdCBpdHMgb3duLCBjbG9zZXIgJ25vZGVfbW9kdWxlcycgaW5zdGVhZAoJCQkJLy8gb2YgYmVpbmcgcmVkaXJlY3RlZCBpbnRvIHRoZSBhcHAgYXJjaGl2ZS4gVGhlIGFyY2hpdmUgc3RhbmRzIGluIGZvcgoJCQkJLy8gdGhlIGFwcGxpY2F0aW9uJ3Mgb3duIChmYXJ0aGVzdCkgJ25vZGVfbW9kdWxlcycsIHNvIGl0IG11c3Qgb25seSBiZQoJCQkJLy8gY29uc3VsdGVkIG9uY2UgdGhlIGRlZmF1bHQgd2FsayBoYXMgZm91bmQgbm90aGluZy4KCQkJCWxldCBkZWZhdWx0UmVzdWx0OwoJCQkJbGV0IGRlZmF1bHRFcnJvcjsKCQkJCXRyeSB7CgkJCQkJZGVmYXVsdFJlc3VsdCA9IGF3YWl0IG5leHRSZXNvbHZlKHNwZWNpZmllciwgY29udGV4dCk7CgkJCQl9IGNhdGNoIChlcnIpIHsKCQkJCQlkZWZhdWx0RXJyb3IgPSBlcnI7CgkJCQl9CgoJCQkJLy8gT25seSBhY2NlcHQgYSBkZWZhdWx0IHJlc29sdXRpb24gdGhhdCBsYW5kcyBJTlNJREUgdGhlIGFwcGxpY2F0aW9uCgkJCQkvLyB0cmVlIChhIGNsb3NlciBjb3B5IHVuZGVyICdyZXNvdXJjZXMvYXBwJywgZS5nLiBvbmUgYnVuZGxlZCBieSBhCgkJCQkvLyBidWlsdC1pbiBleHRlbnNpb24pLiBBIHJlc29sdXRpb24gQUJPVkUgdGhlIGFwcCByb290IG11c3Qgbm90IHdpbgoJCQkJLy8gb3ZlciB0aGUgYXJjaGl2ZTogd2hlbiB0aGUgYXBwIGlzIG5lc3RlZCBpbnNpZGUgYSBsYXJnZXIgdHJlZSAoZS5nLgoJCQkJLy8gJ0B2c2NvZGUvdGVzdC1lbGVjdHJvbicgZG93bmxvYWRzIHRoZSBwYWNrYWdlZCBhcHAgdW5kZXIgdGhlIHJlcG8ncwoJCQkJLy8gb3duICdub2RlX21vZHVsZXMnKSwgdGhlIGRlZmF1bHQgbm9kZV9tb2R1bGVzIHdhbGsgY2FuIGVzY2FwZSB0aGUgYXBwCgkJCQkvLyBhbmQgZmluZCBhIHN0YWxlIC8gQUJJLW1pc21hdGNoZWQgY29weS4gVGhlIGFyY2hpdmUgc3RhbmRzIGluIGZvciB0aGUKCQkJCS8vIGFwcGxpY2F0aW9uJ3Mgb3duICdub2RlX21vZHVsZXMnIGFuZCBtdXN0IHRha2UgcHJlY2VkZW5jZSBvdmVyCgkJCQkvLyBhbnl0aGluZyBvdXRzaWRlICdyZXNvdXJjZXMvYXBwJy4KCQkJCWlmIChkZWZhdWx0UmVzdWx0KSB7CgkJCQkJbGV0IHJlc29sdmVkUGF0aDsKCQkJCQl0cnkgeyByZXNvbHZlZFBhdGggPSBub3JtYWxpemVEcml2ZUxldHRlcihmaWxlVVJMVG9QYXRoKGRlZmF1bHRSZXN1bHQudXJsKSk7IH0gY2F0Y2ggeyByZXNvbHZlZFBhdGggPSB1bmRlZmluZWQ7IH0KCQkJCQlpZiAoIXJlc29sdmVkUGF0aCB8fCByZXNvbHZlZFBhdGguc3RhcnRzV2l0aChyZXNvdXJjZXNQYXRoKSkgewoJCQkJCQlpZiAodHJhY2UpIHsgdHJhY2UoJyAgZGVmYXVsdCAtPiAnICsgZGVmYXVsdFJlc3VsdC51cmwgKyAnIChpbiBhcHAsIEFDQ0VQVCknKTsgfQoJCQkJCQlyZXR1cm4gZGVmYXVsdFJlc3VsdDsKCQkJCQl9CgkJCQkJaWYgKHRyYWNlKSB7IHRyYWNlKCcgIGRlZmF1bHQgLT4gJyArIGRlZmF1bHRSZXN1bHQudXJsICsgJyAob3V0c2lkZSBhcHAsIHJlamVjdCknKTsgfQoJCQkJfSBlbHNlIGlmICh0cmFjZSkgewoJCQkJCXRyYWNlKCcgIGRlZmF1bHQgLT4gPG5vbmU+ICgnICsgKGRlZmF1bHRFcnJvciAmJiAoZGVmYXVsdEVycm9yLmNvZGUgfHwgZGVmYXVsdEVycm9yLm1lc3NhZ2UpKSArICcpJyk7CgkJCQl9CgoJCQkJLy8gTG9jYXRlIHRoZSBwYWNrYWdlIGluc2lkZSB0aGUgYXJjaGl2ZSB2aWEgaXRzIHBhY2thZ2UuanNvbiAodGhpcyBpcwoJCQkJLy8gcmVzb2x1dGlvbi1jb25kaXRpb24gaW5kZXBlbmRlbnQpLCBzbyB3ZSBjYW4gcmUtcm9vdCByZXNvbHV0aW9uCgkJCQkvLyBpbnNpZGUgaXQgYmVsb3cuCgkJCQlsZXQgcGFja2FnZUpzb25QYXRoOwoJCQkJdHJ5IHsKCQkJCQlwYWNrYWdlSnNvblBhdGggPSBhc2FyUmVxdWlyZS5yZXNvbHZlKCcuLycgKyBwYWNrYWdlTmFtZU9mKHNwZWNpZmllcikgKyAnL3BhY2thZ2UuanNvbicpOwoJCQkJfSBjYXRjaCB7CgkJCQkJLy8gVGhlIHBhY2thZ2UgaXMgcGFydCBvZiBuZWl0aGVyICdyZXNvdXJjZXMvYXBwJyAodGhlIGRlZmF1bHQKCQkJCQkvLyByZXNvbHV0aW9uIGFib3ZlIGRpZCBub3QgbGFuZCBpbnNpZGUgdGhlIGFwcCkgbm9yIHRoZSBhcmNoaXZlLgoJCQkJCS8vIERvIE5PVCBmYWxsIGJhY2sgdG8gYSBjb3B5IGZyb20gYW4gb3V0ZXIgJ25vZGVfbW9kdWxlcycgKGUuZy4gYQoJCQkJCS8vIHBhcmVudCBjaGVja291dCB0aGUgYXBwIGlzIG5lc3RlZCB1bmRlcik6IHRoZSBhcHBsaWNhdGlvbiBtdXN0CgkJCQkJLy8gcmVzb2x2ZSBpdHMgb3duIGRlcGVuZGVuY2llcyBleGNsdXNpdmVseSBmcm9tIGl0cyBvd24gcmVzb3VyY2VzLgoJCQkJCS8vIFN1cmZhY2UgdGhlIG9yaWdpbmFsIHJlc29sdXRpb24gZXJyb3Igc28gYSBtaXNzaW5nL21pc3BsYWNlZAoJCQkJCS8vIGRlcGVuZGVuY3kgZmFpbHMgbG91ZGx5IGluc3RlYWQgb2Ygc2lsZW50bHkgbG9hZGluZyBhIGZvcmVpZ24gY29weS4KCQkJCQlpZiAodHJhY2UpIHsgdHJhY2UoJyAgYXJjaGl2ZTogcGFja2FnZSAiJyArIHBhY2thZ2VOYW1lT2Yoc3BlY2lmaWVyKSArICciIE5PVCBpbiBhcmNoaXZlIC0+IHRocm93Jyk7IH0KCQkJCQl0aHJvdyBkZWZhdWx0RXJyb3IgPz8gbmV3IEVycm9yKCJDYW5ub3QgZmluZCBwYWNrYWdlICciICsgc3BlY2lmaWVyICsgIicgd2l0aGluIHRoZSBhcHBsaWNhdGlvbiByZXNvdXJjZXMiKTsKCQkJCX0KCQkJCWlmICh0cmFjZSkgeyB0cmFjZSgnICBhcmNoaXZlIHBrZy5qc29uIC0+ICcgKyBwYWNrYWdlSnNvblBhdGgpOyB9CgkJCQkvLyBSZS1ydW4gdGhlIGRlZmF1bHQgRVNNIHJlc29sdXRpb24gcm9vdGVkICppbnNpZGUqIHRoZSBhcmNoaXZlZAoJCQkJLy8gcGFja2FnZSAodmlhIGl0cyBwYWNrYWdlLmpzb24pIHNvIE5vZGUgcmVzb2x2ZXMgdGhlIHJlcXVlc3QgYXMgYQoJCQkJLy8gcGFja2FnZSBzZWxmLXJlZmVyZW5jZSwgYXBwbHlpbmcgdGhlIHJlYWwgJ2V4cG9ydHMnLydtYWluJyBmaWVsZHMgYW5kCgkJCQkvLyBFU00gY29uZGl0aW9ucyAoJ2ltcG9ydCcgb3ZlciAncmVxdWlyZScpLgoJCQkJdHJ5IHsKCQkJCQljb25zdCBzZWxmUmVmID0gYXdhaXQgbmV4dFJlc29sdmUoc3BlY2lmaWVyLCB7IC4uLmNvbnRleHQsIHBhcmVudFVSTDogcGF0aFRvRmlsZVVSTChwYWNrYWdlSnNvblBhdGgpLmhyZWYgfSk7CgkJCQkJLy8gQSBwYWNrYWdlIHdpdGhvdXQgYW4gJ2V4cG9ydHMnIGZpZWxkIGRvZXMgbm90IHNlbGYtcmVmZXJlbmNlOiBOb2RlCgkJCQkJLy8gZmFsbHMgYmFjayB0byBhICdub2RlX21vZHVsZXMnIHdhbGsgZnJvbSB0aGUgcGFja2FnZSBkaXIgdGhhdCBjYW4KCQkJCQkvLyBjbGltYiAqb3V0KiBvZiB0aGUgYXJjaGl2ZSBpbnRvIGFuIG91dGVyICdub2RlX21vZHVsZXMnIChlLmcuIHRoZQoJCQkJCS8vIGNoZWNrb3V0IHRoZSBhcHAgaXMgbmVzdGVkIHVuZGVyKS4gT25seSBhY2NlcHQgYSByZXN1bHQgdGhhdCBzdGF5cwoJCQkJCS8vIGluc2lkZSB0aGUgYXBwIHJlc291cmNlczsgb3RoZXJ3aXNlIGZhbGwgYmFjayB0byB0aGUgZGlyZWN0LAoJCQkJCS8vIGVzY2FwZS1wcm9vZiBhcmNoaXZlIHJlc29sdXRpb24gYmVsb3cuCgkJCQkJbGV0IHNlbGZSZWZQYXRoOwoJCQkJCXRyeSB7IHNlbGZSZWZQYXRoID0gbm9ybWFsaXplRHJpdmVMZXR0ZXIoZmlsZVVSTFRvUGF0aChzZWxmUmVmLnVybCkpOyB9IGNhdGNoIHsgc2VsZlJlZlBhdGggPSB1bmRlZmluZWQ7IH0KCQkJCQlpZiAoc2VsZlJlZlBhdGggJiYgc2VsZlJlZlBhdGguc3RhcnRzV2l0aChyZXNvdXJjZXNQYXRoKSkgewoJCQkJCQlpZiAodHJhY2UpIHsgdHJhY2UoJyAgc2VsZi1yZWYgLT4gJyArIHNlbGZSZWYudXJsICsgJyAoaW4gYXBwLCBBQ0NFUFQpJyk7IH0KCQkJCQkJcmV0dXJuIHNlbGZSZWY7CgkJCQkJfQoJCQkJCWlmICh0cmFjZSkgeyB0cmFjZSgnICBzZWxmLXJlZiAtPiAnICsgc2VsZlJlZi51cmwgKyAnIChlc2NhcGVkIGFwcCwgcmVqZWN0KScpOyB9CgkJCQl9IGNhdGNoIChlcnIpIHsKCQkJCQkvLyBGYWxsIHRocm91Z2ggdG8gZGlyZWN0IHJlc29sdXRpb24gYmVsb3cuCgkJCQkJaWYgKHRyYWNlKSB7IHRyYWNlKCcgIHNlbGYtcmVmIC0+IDx0aHJvdz4gKCcgKyAoZXJyICYmIChlcnIuY29kZSB8fCBlcnIubWVzc2FnZSkpICsgJyknKTsgfQoJCQkJfQoJCQkJY29uc3QgcmVzb2x2ZWQgPSBhc2FyUmVxdWlyZS5yZXNvbHZlKCcuLycgKyBzcGVjaWZpZXIpOwoJCQkJY29uc3QgdXJsID0gcGF0aFRvRmlsZVVSTChyZXNvbHZlZCkuaHJlZjsKCQkJCWlmICh0cmFjZSkgeyB0cmFjZSgnICBkaXJlY3QgLT4gJyArIHVybCArICcgKEFDQ0VQVCknKTsgfQoJCQkJcmV0dXJuIHsgdXJsLCBzaG9ydENpcmN1aXQ6IHRydWUgfTsKCQkJfSBlbHNlIGlmICh0cmFjZSkgewoJCQkJdHJhY2UoJ2RlZmVyICInICsgc3BlY2lmaWVyICsgJyIgKHBhcmVudCBvdXRzaWRlIGFwcCByZXNvdXJjZXM6ICcgKyBjb250ZXh0LnBhcmVudFVSTCArICcpJyk7CgkJCX0KCQl9CgoJCS8vIERlZmVyIHRvIHRoZSBuZXh0IGhvb2sgaW4gdGhlIGNoYWluLCB3aGljaCB3b3VsZCBiZSB0aGUKCQkvLyBOb2RlLmpzIGRlZmF1bHQgcmVzb2x2ZSBpZiB0aGlzIGlzIHRoZSBsYXN0IHVzZXItc3BlY2lmaWVkIGxvYWRlci4KCQlyZXR1cm4gbmV4dFJlc29sdmUoc3BlY2lmaWVyLCBjb250ZXh0KTsKCX0=:171:34)
+    at async nextResolve (node:internal/modules/esm/hooks:785:22)
+    at async AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:24)
+    at async MessagePort.handleMessage (node:internal/modules/esm/worker:251:18)
+2026-09-14 17:36:57.706 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-14 17:36:57.725 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-14 17:36:59.226 [info] [perf] Render performance baseline is 62ms
+2026-09-14 17:36:59.493 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-14 17:37:00.199 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-14 17:37:01.231 [error] [Extension Host] (node:13081) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 18:11:41.655 [error] Unable to find matching pair for { at char 5925: Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 18:11:42.942 [error] Unable to find matching pair for { at char 5925: Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 18:11:57.106 [error] Unable to find matching pair for { at char 5925: Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 18:12:15.673 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:8333)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 19:04:13.661 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-14 19:04:14.050 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-14 19:04:14.415 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-14 19:05:09.108 [error] Unable to find matching pair for { at char 5925: Error: Unable to find matching pair for { at char 5925
+	at Lr.error (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:1425)
+	at _e (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2032)
+	at Ko (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5729)
+	at Xf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:2536)
+	at Jf (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:5864)
+	at ts (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:6148)
+	at vd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3888)
+	at bd (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:3529)
+	at U (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:1:23971)
+	at Jn.provideCompletionItemsInternal (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:7935)
+	at Jn.provideCompletionItems (/usr/lib/code/extensions/emmet/dist/node/emmetNodeMain.js:25:6806)
+	at i.provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:150417)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178919
+	at i._withAdapter (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:167841)
+	at i.$provideCompletionItems (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:571:178896)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111586)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:111334)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110023)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108912)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106987)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Op.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:10003)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at ys.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:853:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-14 19:07:49.127 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-09-14 19:07:49.128 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'

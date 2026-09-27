@@ -1,0 +1,95 @@
+2026-09-26 10:03:56.499 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-26 10:03:56.522 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 25ms.
+2026-09-26 10:03:56.546 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 22ms.
+2026-09-26 10:03:56.578 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-26 10:03:57.120 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-26 10:03:57.726 [info] Started local extension host with pid 98535.
+2026-09-26 10:03:58.348 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-26 10:03:58.348 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-26 10:03:58.350 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-26 10:03:58.578 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-26 10:03:59.663 [info] [AgentHost:renderer] Protocol connection established; clientId=c6680f32-174a-4adc-80cb-5d357eec3a7c
+2026-09-26 10:04:01.113 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-26 10:04:04.763 [error] [Extension Host] (node:98535) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-26 10:04:04.784 [info] Auto updating outdated extensions. ms-python.vscode-python-envs
+2026-09-26 10:04:06.119 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-26 10:04:07.854 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at node:internal/modules/cjs/loader:1301:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18159)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:674:26830)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.<anonymous> (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.Dns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1385)
+	at ZCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at Pns (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:19039)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:18749)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:16723
+	at async Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:16021)
+	at async Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15963)
+	at async Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15330)
+2026-09-26 10:04:08.415 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:1999)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at node:internal/modules/esm/loader:632:32
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at zZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2781:15460)
+2026-09-26 10:04:09.002 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-26 10:04:09.002 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-26 10:04:10.410 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-26 10:04:10.573 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-26 10:04:10.837 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-26 10:04:12.642 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-26 10:04:12.647 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-26 10:04:12.779 [info] [perf] Render performance baseline is 118ms

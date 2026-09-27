@@ -1,0 +1,53 @@
+2026-09-13 10:03:01.005 [info] Name: yapf
+2026-09-13 10:03:01.005 [info] Module: yapf
+2026-09-13 10:03:01.005 [info] Python extension loading
+2026-09-13 10:03:01.005 [info] Waiting for interpreter from python extension.
+2026-09-13 10:03:01.005 [info] Python extension loaded
+2026-09-13 10:03:01.005 [info] Server run command: /home/sadnane/Saad-Programming/saad-lab/bin/python /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool/lsp_server.py
+2026-09-13 10:03:01.005 [info] Server: Start requested.
+2026-09-13 10:03:03.243 [info] CWD Server: /home/sadnane/Saad-Programming
+2026-09-13 10:03:03.267 [info] sys.path used to run Server:
+   /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/libs
+   /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool
+   /usr/lib/python314.zip
+   /usr/lib/python3.14
+   /usr/lib/python3.14/lib-dynload
+   /home/sadnane/Saad-Programming/saad-lab/lib/python3.14/site-packages
+   /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool-libs
+2026-09-13 10:03:03.274 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/sadnane/Saad-Programming",
+        "workspace": "file:///home/sadnane/Saad-Programming",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/sadnane/Saad-Programming/saad-lab/bin/python"
+        ],
+        "importStrategy": "fromEnvironment",
+        "showNotifications": "off",
+        "showDebugLog": false,
+        "cellMagics": []
+    }
+]
+
+2026-09-13 10:03:03.279 [info] Global settings:
+{
+    "cwd": "/home/sadnane",
+    "workspace": "/home/sadnane",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "fromEnvironment",
+    "showNotifications": "off",
+    "showDebugLog": false,
+    "cellMagics": []
+}
+
+2026-09-13 10:24:25.270 [info] /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool/lsp_server.py:115: DeprecationWarning: 'workspace.get_document' has been deprecated, use 'workspace.get_text_document' instead
+  document = LSP_SERVER.workspace.get_document(params.text_document.uri)
+
+2026-09-13 10:24:25.405 [info] /home/sadnane/Saad-Programming/saad-lab/bin/python -m yapf
+2026-09-13 10:24:25.405 [info] CWD Linter: /home/sadnane/Saad-Programming
+2026-09-13 10:24:25.418 [info] yapf: <stdin>:121:12: unexpected indent
+

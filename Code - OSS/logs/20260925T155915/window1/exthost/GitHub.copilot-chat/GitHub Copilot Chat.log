@@ -1,0 +1,150 @@
+2026-09-25 14:59:44.208 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-09-25 14:59:44.208 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-09-25 14:59:44.208 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-09-25 14:59:44.208 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-09-25 14:59:44.208 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-09-25 14:59:44.208 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-09-25 14:59:44.208 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-09-25 14:59:44.208 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-09-25 14:59:44.208 [info] BYOK: fetching known models list
+2026-09-25 14:59:44.208 [info] Using the Electron fetcher.
+2026-09-25 14:59:44.208 [info] activationBlocker from 'languageModelAccess' took for 285ms
+2026-09-25 14:59:44.208 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:44.208 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:44.208 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:44.208 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:44.208 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:44.208 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:44.208 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-09-25 14:59:44.208 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-09-25 14:59:44.208 [info] [CopilotCLI] Cleaned up 1 stale lock file(s).
+2026-09-25 14:59:44.208 [info] ConversationFeature: BYOK models available
+2026-09-25 14:59:44.208 [info] ConversationFeature: Activating contributions
+2026-09-25 14:59:44.208 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-09-25 14:59:44.208 [warning] Unable to fetch remote agents because user is not signed in.
+2026-09-25 14:59:44.208 [info] activationBlocker from 'conversationFeature' took for 4001ms
+2026-09-25 14:59:44.208 [info] [CopilotCLI] MCP server started. Lock file: /home/sadnane/.copilot/ide/505feeeb-fded-4c9f-b287-f74f5d16cce2.lock
+2026-09-25 14:59:44.208 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-fDgijO/mcp.sock#%2Fmcp
+2026-09-25 14:59:44.208 [info] Logged in as adnaneSaad
+2026-09-25 14:59:44.622 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:44.728 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:44.827 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 14:59:45.216 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:45.285 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:45.814 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:45.838 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:45.844 [warning] Failed to get copilot token due to status 401 
+2026-09-25 14:59:45.844 [warning] Failed to get copilot token due to 401 status
+2026-09-25 14:59:45.857 [error] GitHub Copilot could not connect to server. Extension activation failed: "Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again."
+2026-09-25 14:59:45.857 [info] [context keys] Setting context key: github.copilot.interactiveSession.invalidToken
+2026-09-25 14:59:45.857 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-25 14:59:45.857 [error] Error: Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again.
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:19957)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async die._provideLanguageModelChatInfo (/usr/lib/code/extensions/copilot/dist/extension.js:1547:4294)
+	at async ac.$provideLanguageModelChatInfo (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:42424)
+2026-09-25 14:59:45.857 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: false
+2026-09-25 14:59:45.863 [info] BYOK: unregistered providers due to enterprise policy.
+2026-09-25 14:59:45.863 [info] Registering default platform agent...
+2026-09-25 14:59:45.867 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:45.867 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:45.867 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-25 14:59:45.872 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 14:59:45.872 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-09-25 14:59:45.873 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 14:59:45.873 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-09-25 14:59:45.996 [info] Logged in as adnaneSaad
+2026-09-25 14:59:46.157 [warning] Invalid remote agent response: unauthorized: AuthenticateToken authentication failed
+ (SyntaxError: Unexpected token 'u', "unauthoriz"... is not valid JSON)
+2026-09-25 14:59:46.170 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:46.191 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:46.386 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:46.431 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:46.473 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 14:59:46.789 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:46.832 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:46.840 [warning] Failed to get copilot token due to status 401 
+2026-09-25 14:59:46.840 [warning] Failed to get copilot token due to 401 status
+2026-09-25 14:59:46.851 [error] GitHub Copilot could not connect to server. Extension activation failed: "Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again."
+2026-09-25 14:59:46.851 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-25 14:59:46.851 [error] Error: Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again.
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:19957)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async r (/usr/lib/code/extensions/copilot/dist/extension.js:1547:10508)
+2026-09-25 14:59:46.851 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-25 14:59:46.851 [error] Error: Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again.
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:19957)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async die._provideLanguageModelChatInfo (/usr/lib/code/extensions/copilot/dist/extension.js:1547:4294)
+	at async ac.$provideLanguageModelChatInfo (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:42424)
+2026-09-25 14:59:46.931 [info] Logged in as adnaneSaad
+2026-09-25 14:59:47.117 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:47.144 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:47.314 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:47.375 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:47.661 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:47.679 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:47.681 [warning] Failed to get copilot token due to status 401 
+2026-09-25 14:59:47.681 [warning] Failed to get copilot token due to 401 status
+2026-09-25 14:59:47.682 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-25 14:59:47.682 [error] Error: Your GitHub token is invalid. Please sign out from your GitHub account using the VS Code accounts menu and try again.
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:19957)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async die._provideLanguageModelChatInfo (/usr/lib/code/extensions/copilot/dist/extension.js:1547:4294)
+	at async ac.$provideLanguageModelChatInfo (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:42424)
+2026-09-25 14:59:47.694 [info] Logged in as adnaneSaad
+2026-09-25 14:59:47.848 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:47.860 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:48.028 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:48.073 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:48.344 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:48.364 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:48.366 [warning] Failed to get copilot token due to status 401 
+2026-09-25 14:59:48.366 [warning] Failed to get copilot token due to 401 status
+2026-09-25 14:59:48.374 [info] Logged in as adnaneSaad
+2026-09-25 14:59:48.511 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:48.526 [info] FetcherService: electron-fetch failed with status: 401 
+2026-09-25 14:59:48.677 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:48.721 [info] FetcherService: node-fetch failed with status: 401 
+2026-09-25 14:59:48.971 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:48.981 [info] FetcherService: node-http failed with status: 401 Unauthorized
+2026-09-25 14:59:48.982 [warning] Failed to get copilot token due to status 401 
+2026-09-25 14:59:48.982 [warning] Failed to get copilot token due to 401 status
+2026-09-25 15:00:50.678 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 15:00:50.678 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-09-25 15:13:58.190 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 15:13:58.191 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-09-25 15:24:21.261 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 15:24:21.261 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.
+2026-09-25 15:36:05.830 [error] [GitHubAPI] GET https://api.github.com/user - Status: 401
+2026-09-25 15:36:05.830 [warning] Skipping repo-scoped cloud task list because the current user id could not be resolved; returning no sessions to avoid exposing other users' tasks.

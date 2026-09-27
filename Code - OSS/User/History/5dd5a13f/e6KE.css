@@ -1,0 +1,201 @@
+:root {
+    --w: bold;
+    --df: Arial, Helvetica, sans-serif;
+    --fs: 14px;
+}
+
+.default {
+    font-family: var(--df);
+    font-size: var(--fs);
+}
+
+.default-bold {
+    font-family: var(--df);
+    font-size: var(--fs);
+    font-weight: var(--w);
+}
+
+.error {
+    font-family: var(--df);
+    font-size: 20px;
+    font-weight: var(--w);
+    color: red;
+    text-decoration: underline wavy;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.popup-bg {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-itself {
+    background-color: azure;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.AI_popup-bg {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+}
+
+.AI_popup-itself {
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    max-height: 75vh;
+    overflow-y: auto;
+    word-break: break-word;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.AI_Chat-popup-bg {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+}
+
+.AI_popup-Answer-bg {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+}
+
+.AI_popup-Answer-itself {
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    max-height: 75vh;
+    overflow-y: auto;
+    word-break: break-word;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.AI_btn {
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.AI_btn:hover {
+    background-color: #8e0101;
+}
+
+.download-btn {
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+input[type="number"] {
+    width: 250px;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+input {
+    width: 250px;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+input[type="number"]:not(:placeholder-shown):user-invalid {
+    color: red;
+    border-color: red;
+    background-color: #fff8f8;
+}

@@ -1,0 +1,6 @@
+2026-09-13 10:02:33.623 [error] #7: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-13 10:02:34.036 [error] #9: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-13 10:02:34.442 [error] #11: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-13 11:02:54.882 [error] #14: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-13 11:02:55.247 [error] #16: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-13 11:02:55.625 [error] #19: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch

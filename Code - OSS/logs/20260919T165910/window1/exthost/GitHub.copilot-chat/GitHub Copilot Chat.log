@@ -1,0 +1,528 @@
+2026-09-19 16:59:32.792 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-09-19 16:59:32.792 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-09-19 16:59:32.792 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-09-19 16:59:32.792 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-09-19 16:59:32.792 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-09-19 16:59:32.792 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-09-19 16:59:32.792 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-09-19 16:59:32.792 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-09-19 16:59:32.793 [info] BYOK: fetching known models list
+2026-09-19 16:59:32.793 [info] Using the Electron fetcher.
+2026-09-19 16:59:32.793 [info] activationBlocker from 'languageModelAccess' took for 208ms
+2026-09-19 16:59:32.793 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:32.793 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:32.793 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:32.793 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:32.793 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:32.793 [error] Failed to get all sessions: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:32.793 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-09-19 16:59:32.793 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-09-19 16:59:32.793 [info] [CopilotCLI] MCP server started. Lock file: /home/sadnane/.copilot/ide/b20635a9-5efc-4bc8-9109-3d7015ef208c.lock
+2026-09-19 16:59:32.793 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-kqszT6/mcp.sock#%2Fmcp
+2026-09-19 16:59:32.793 [info] ConversationFeature: BYOK models available
+2026-09-19 16:59:32.793 [info] ConversationFeature: Activating contributions
+2026-09-19 16:59:32.793 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-09-19 16:59:32.793 [warning] Unable to fetch remote agents because user is not signed in.
+2026-09-19 16:59:32.793 [info] activationBlocker from 'conversationFeature' took for 3185ms
+2026-09-19 16:59:32.793 [info] Logged in as adnaneSaad
+2026-09-19 16:59:33.192 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 16:59:33.765 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 16:59:34.243 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 16:59:34.252 [warning] Failed to get copilot token due to status 404 
+2026-09-19 16:59:34.252 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 16:59:34.301 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 16:59:34.302 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-19 16:59:34.302 [error] Error: Failed to get copilot token. reason: NotAuthorized
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:20168)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async die._provideLanguageModelChatInfo (/usr/lib/code/extensions/copilot/dist/extension.js:1547:4294)
+	at async ac.$provideLanguageModelChatInfo (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:42424)
+2026-09-19 16:59:34.302 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: false
+2026-09-19 16:59:34.314 [info] BYOK: unregistered providers due to enterprise policy.
+2026-09-19 16:59:34.314 [info] Registering default platform agent...
+2026-09-19 16:59:34.318 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:34.319 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:34.324 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-19 16:59:34.355 [info] Logged in as adnaneSaad
+2026-09-19 16:59:34.474 [warning] Invalid remote agent response: checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint
+ (SyntaxError: Unexpected token 'c', "checking t"... is not valid JSON)
+2026-09-19 16:59:34.557 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 16:59:34.837 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 16:59:35.209 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 16:59:35.211 [warning] Failed to get copilot token due to status 404 
+2026-09-19 16:59:35.211 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 16:59:35.218 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 16:59:35.218 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-19 16:59:35.218 [error] Error: Failed to get copilot token. reason: NotAuthorized
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:20168)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async r (/usr/lib/code/extensions/copilot/dist/extension.js:1547:10508)
+2026-09-19 16:59:35.218 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-19 16:59:35.218 [error] Error: Failed to get copilot token. reason: NotAuthorized
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:20168)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async die._provideLanguageModelChatInfo (/usr/lib/code/extensions/copilot/dist/extension.js:1547:4294)
+	at async ac.$provideLanguageModelChatInfo (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:42424)
+2026-09-19 16:59:35.278 [info] Logged in as adnaneSaad
+2026-09-19 16:59:35.466 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 16:59:35.678 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 16:59:36.121 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 16:59:36.122 [warning] Failed to get copilot token due to status 404 
+2026-09-19 16:59:36.122 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 16:59:36.122 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2026-09-19 16:59:36.122 [error] Error: Failed to get copilot token. reason: NotAuthorized
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:20168)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async die._getToken (/usr/lib/code/extensions/copilot/dist/extension.js:1547:11227)
+	at async die._provideLanguageModelChatInfo (/usr/lib/code/extensions/copilot/dist/extension.js:1547:4294)
+	at async ac.$provideLanguageModelChatInfo (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:544:42424)
+2026-09-19 16:59:36.134 [info] Logged in as adnaneSaad
+2026-09-19 16:59:36.429 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 16:59:36.737 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 16:59:37.123 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 16:59:37.124 [warning] Failed to get copilot token due to status 404 
+2026-09-19 16:59:37.124 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 16:59:37.152 [info] Logged in as adnaneSaad
+2026-09-19 16:59:37.358 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 16:59:37.578 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 16:59:38.000 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 16:59:38.002 [warning] Failed to get copilot token due to status 404 
+2026-09-19 16:59:38.002 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:00:38.178 [info] Logged in as adnaneSaad
+2026-09-19 17:00:44.763 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:00:45.405 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:00:45.810 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:00:45.812 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:00:45.812 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:00:45.817 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:01:03.642 [info] Logged in as adnaneSaad
+2026-09-19 17:01:03.902 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:01:04.142 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:01:04.484 [info] FetcherService: node-http failed with error: 
+2026-09-19 17:01:04.491 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:01:04.492 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:01:04.494 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:01:26.200 [info] Logged in as adnaneSaad
+2026-09-19 17:01:26.460 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:01:26.716 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:01:27.109 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:01:27.112 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:01:27.113 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:01:27.120 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:02:09.009 [info] Logged in as adnaneSaad
+2026-09-19 17:02:09.365 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:02:09.796 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:02:10.237 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:02:10.238 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:02:10.238 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:02:10.241 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:02:29.641 [info] Logged in as adnaneSaad
+2026-09-19 17:02:29.904 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:02:30.208 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:02:30.644 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:02:30.646 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:02:30.646 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:02:30.649 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:03:55.818 [info] Logged in as adnaneSaad
+2026-09-19 17:03:56.228 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:03:56.688 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:03:57.363 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:03:57.364 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:03:57.364 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:03:57.366 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:08:11.021 [info] Logged in as adnaneSaad
+2026-09-19 17:08:11.392 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:08:11.854 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:08:12.322 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:08:12.325 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:08:12.325 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:08:12.337 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:09:12.351 [info] Logged in as adnaneSaad
+2026-09-19 17:09:13.030 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:09:13.638 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:09:14.068 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:09:14.070 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:09:14.070 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:09:14.075 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:13:46.127 [info] Logged in as adnaneSaad
+2026-09-19 17:13:46.489 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:13:46.977 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:13:47.522 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:13:47.523 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:13:47.523 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:13:47.528 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:14:17.773 [info] Logged in as adnaneSaad
+2026-09-19 17:14:18.448 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:14:18.892 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:14:19.564 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:14:19.566 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:14:19.566 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:14:19.570 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:14:42.978 [info] Logged in as adnaneSaad
+2026-09-19 17:14:43.202 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:14:43.434 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:14:43.872 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:14:43.873 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:14:43.873 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:14:43.876 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:15:26.270 [info] Logged in as adnaneSaad
+2026-09-19 17:15:26.757 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:15:27.144 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:15:27.635 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:15:27.636 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:15:27.636 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:15:27.638 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:15:40.103 [info] Logged in as adnaneSaad
+2026-09-19 17:15:40.376 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:15:40.756 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:15:41.253 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:15:41.258 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:15:41.258 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:15:41.270 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:15:46.427 [info] Logged in as adnaneSaad
+2026-09-19 17:15:46.690 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:15:46.908 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:15:47.399 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:15:47.400 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:15:47.400 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:15:47.401 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:16:47.439 [info] Logged in as adnaneSaad
+2026-09-19 17:16:47.767 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:16:48.174 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:16:48.668 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:16:48.669 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:16:48.669 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:16:48.671 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:17:48.674 [info] Logged in as adnaneSaad
+2026-09-19 17:17:49.034 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:17:49.458 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:17:49.874 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:17:49.875 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:17:49.875 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:17:49.878 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:18:30.282 [info] Logged in as adnaneSaad
+2026-09-19 17:18:30.651 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:18:31.039 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:18:31.451 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:18:31.452 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:18:31.452 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:18:31.456 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:19:18.879 [info] Logged in as adnaneSaad
+2026-09-19 17:19:19.264 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:19:19.651 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:19:20.093 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:19:20.094 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:19:20.094 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:19:20.103 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:19:27.677 [info] Logged in as adnaneSaad
+2026-09-19 17:19:27.888 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:19:28.119 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:19:28.528 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:19:28.529 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:19:28.529 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:19:28.533 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:20:18.155 [info] Logged in as adnaneSaad
+2026-09-19 17:20:18.784 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:20:19.178 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:20:19.605 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:20:19.607 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:20:19.607 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:20:19.611 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:21:19.623 [info] Logged in as adnaneSaad
+2026-09-19 17:21:19.995 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:21:20.432 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:21:20.826 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:21:20.830 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:21:20.830 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:21:20.836 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:22:20.846 [info] Logged in as adnaneSaad
+2026-09-19 17:22:21.165 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:22:21.534 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:22:21.955 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:22:21.958 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:22:21.958 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:22:21.961 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:23:21.978 [info] Logged in as adnaneSaad
+2026-09-19 17:23:22.310 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:23:22.722 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:23:23.163 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:23:23.164 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:23:23.164 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:23:23.167 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:24:05.219 [info] Logged in as adnaneSaad
+2026-09-19 17:24:05.510 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:24:05.923 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:24:06.290 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:24:06.292 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:24:06.292 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:24:06.294 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:24:41.318 [info] Logged in as adnaneSaad
+2026-09-19 17:24:41.681 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:24:42.083 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:24:42.468 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:24:42.470 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:24:42.470 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:24:42.473 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:25:26.456 [info] Logged in as adnaneSaad
+2026-09-19 17:25:26.794 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:25:32.163 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:25:33.034 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:25:33.038 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:25:33.038 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:25:33.043 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:25:59.768 [info] Logged in as adnaneSaad
+2026-09-19 17:26:00.137 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:26:00.359 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:26:00.851 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:26:00.854 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:26:00.854 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:26:00.900 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:26:18.733 [info] Logged in as adnaneSaad
+2026-09-19 17:26:18.974 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:26:19.198 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:26:19.732 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:26:19.753 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:26:19.753 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:26:19.755 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:30:42.063 [info] Logged in as adnaneSaad
+2026-09-19 17:30:42.494 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:30:42.887 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:30:43.310 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:30:43.312 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:30:43.312 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:30:43.317 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:31:43.429 [info] Logged in as adnaneSaad
+2026-09-19 17:31:43.759 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:31:44.178 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:31:44.648 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:31:44.649 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:31:44.649 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:31:44.652 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:32:44.675 [info] Logged in as adnaneSaad
+2026-09-19 17:32:44.987 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:32:45.449 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:32:45.888 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:32:45.889 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:32:45.889 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:32:45.904 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:33:37.509 [info] Logged in as adnaneSaad
+2026-09-19 17:33:37.864 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:33:38.275 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:33:38.630 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:33:38.631 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:33:38.631 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:33:38.633 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:34:38.647 [info] Logged in as adnaneSaad
+2026-09-19 17:34:38.988 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:34:39.345 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:34:39.720 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:34:39.721 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:34:39.721 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:34:39.723 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:35:37.014 [info] Logged in as adnaneSaad
+2026-09-19 17:35:42.345 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:35:42.702 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:35:43.136 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:35:43.138 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:35:43.138 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:35:43.142 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:36:43.159 [info] Logged in as adnaneSaad
+2026-09-19 17:36:43.480 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:36:43.920 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:36:44.301 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:36:44.302 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:36:44.302 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:36:44.308 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:37:44.318 [info] Logged in as adnaneSaad
+2026-09-19 17:37:44.654 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:37:45.051 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:37:45.419 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:37:45.420 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:37:45.420 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:37:45.423 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:38:45.433 [info] Logged in as adnaneSaad
+2026-09-19 17:38:45.807 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:38:46.169 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:38:46.745 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:38:46.747 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:38:46.747 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:38:46.751 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:39:46.765 [info] Logged in as adnaneSaad
+2026-09-19 17:39:47.124 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:39:47.496 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:39:47.880 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:39:47.881 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:39:47.881 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:39:47.885 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:40:29.820 [info] Logged in as adnaneSaad
+2026-09-19 17:40:30.194 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:40:30.615 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:40:30.990 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:40:30.991 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:40:30.991 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:40:30.993 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:41:01.423 [info] Logged in as adnaneSaad
+2026-09-19 17:41:01.820 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:41:02.204 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:41:02.570 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:41:02.571 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:41:02.571 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:41:02.574 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:41:20.259 [info] Logged in as adnaneSaad
+2026-09-19 17:41:20.667 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:41:20.964 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:41:26.395 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:41:26.398 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:41:26.398 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:41:26.400 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:42:12.645 [info] Logged in as adnaneSaad
+2026-09-19 17:42:12.980 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:42:13.351 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:42:13.806 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:42:13.808 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:42:13.808 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:42:13.811 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:44:42.791 [info] Logged in as adnaneSaad
+2026-09-19 17:44:48.174 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:44:48.597 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:44:48.931 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:44:48.932 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:44:48.932 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:44:48.935 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:44:52.158 [info] Logged in as adnaneSaad
+2026-09-19 17:44:52.446 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:44:52.664 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:44:53.043 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:44:53.046 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:44:53.046 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:44:53.049 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:45:17.283 [info] Logged in as adnaneSaad
+2026-09-19 17:45:17.495 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:45:17.727 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:45:18.128 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:45:18.131 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:45:18.131 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:45:18.134 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:45:29.089 [info] Logged in as adnaneSaad
+2026-09-19 17:45:29.307 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:45:29.546 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:45:30.011 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:45:30.012 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:45:30.012 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:45:30.017 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:46:04.206 [info] Logged in as adnaneSaad
+2026-09-19 17:46:04.554 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:46:05.013 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:46:05.442 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:46:05.444 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:46:05.444 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:46:05.459 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:47:29.753 [info] Logged in as adnaneSaad
+2026-09-19 17:47:30.117 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:47:30.525 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:47:30.947 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:47:30.949 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:47:30.949 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:47:30.952 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:49:34.538 [info] Logged in as adnaneSaad
+2026-09-19 17:49:34.877 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:49:35.235 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:49:35.692 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:49:35.693 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:49:35.693 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:49:35.702 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:49:41.221 [info] Logged in as adnaneSaad
+2026-09-19 17:49:41.525 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:49:41.763 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:49:42.151 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:49:42.152 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:49:42.152 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:49:42.157 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:51:39.650 [info] Logged in as adnaneSaad
+2026-09-19 17:51:45.004 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:51:45.424 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:51:46.136 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:51:46.149 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:51:46.149 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:51:46.154 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:51:56.224 [info] Logged in as adnaneSaad
+2026-09-19 17:51:56.457 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:51:56.788 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:51:57.161 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:51:57.166 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:51:57.166 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:51:57.171 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:53:01.888 [info] Logged in as adnaneSaad
+2026-09-19 17:53:07.217 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:53:07.871 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:53:08.367 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:53:08.370 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:53:08.370 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:53:08.373 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:54:47.914 [info] Logged in as adnaneSaad
+2026-09-19 17:54:48.321 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:54:48.747 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:54:49.122 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:54:49.123 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:54:49.123 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:54:49.129 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:56:06.399 [info] Logged in as adnaneSaad
+2026-09-19 17:56:06.825 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:56:07.229 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:56:07.630 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:56:07.633 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:56:07.633 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:56:07.640 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:57:02.196 [info] Logged in as adnaneSaad
+2026-09-19 17:57:02.538 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:57:03.001 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:57:03.477 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:57:03.479 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:57:03.479 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:57:03.484 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:57:07.655 [info] Logged in as adnaneSaad
+2026-09-19 17:57:07.899 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:57:08.186 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:57:08.597 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:57:08.598 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:57:08.598 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:57:08.600 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:57:22.789 [info] Logged in as adnaneSaad
+2026-09-19 17:57:23.006 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:57:23.231 [info] FetcherService: node-fetch failed with status: 404 
+2026-09-19 17:57:23.781 [info] FetcherService: node-http failed with status: 404 Not Found
+2026-09-19 17:57:23.782 [warning] Failed to get copilot token due to status 404 
+2026-09-19 17:57:23.782 [warning] Failed to get copilot token due to: Not Found
+2026-09-19 17:57:23.784 [error] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token. reason: NotAuthorized"
+2026-09-19 17:58:37.622 [info] Logged in as adnaneSaad
+2026-09-19 17:58:37.956 [info] FetcherService: electron-fetch failed with status: 404 
+2026-09-19 17:58:38.299 [info] FetcherService: node-fetch failed with status: 404 

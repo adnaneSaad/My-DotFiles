@@ -1,0 +1,13 @@
+2026-09-11 16:59:48.656 [info] StorageMainService: creating application shared storage
+2026-09-11 16:59:48.854 [info] [shared storage] Creating shared storage database at '/home/sadnane/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-11 16:59:48.856 [info] [shared storage] Initializing fallback application storage (path: /home/sadnane/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-09-11 16:59:48.993 [info] [shared storage] Fallback application storage initialized with 90 items
+2026-09-11 16:59:49.017 [info] update#setState disabled
+2026-09-11 16:59:49.018 [info] update#ctor - updates are disabled as there is no update URL
+2026-09-11 16:59:51.454 [info] AgentHostProcessManager: agent host started
+2026-09-11 16:59:54.687 [error] [AgentHost:stderr] (node:1870) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-11 17:01:05.715 [info] Extension host with pid 1926 exited with code: 0, signal: unknown.
+2026-09-11 17:31:01.274 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-11 17:35:17.566 [warning] No ptyHost heartbeat after 6 seconds

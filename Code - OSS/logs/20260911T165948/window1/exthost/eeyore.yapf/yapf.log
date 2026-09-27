@@ -1,0 +1,172 @@
+2026-09-11 17:01:14.732 [info] Name: yapf
+2026-09-11 17:01:14.732 [info] Module: yapf
+2026-09-11 17:01:14.732 [info] Python extension loading
+2026-09-11 17:01:14.732 [info] Waiting for interpreter from python extension.
+2026-09-11 17:01:14.732 [info] Python extension loaded
+2026-09-11 17:01:14.732 [info] Server run command: /home/sadnane/Saad-Programming/saad-lab/bin/python /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool/lsp_server.py
+2026-09-11 17:01:14.732 [info] Server: Start requested.
+2026-09-11 17:01:16.152 [info] CWD Server: /home/sadnane/Saad-Programming
+2026-09-11 17:01:16.153 [info] sys.path used to run Server:
+   /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/libs
+   /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool
+   /usr/lib/python314.zip
+   /usr/lib/python3.14
+   /usr/lib/python3.14/lib-dynload
+   /home/sadnane/Saad-Programming/saad-lab/lib/python3.14/site-packages
+   /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/bundled/tool-libs
+2026-09-11 17:01:16.191 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/sadnane/Saad-Programming",
+        "workspace": "file:///home/sadnane/Saad-Programming",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/home/sadnane/Saad-Programming/saad-lab/bin/python"
+        ],
+        "importStrategy": "fromEnvironment",
+        "showNotifications": "off",
+        "showDebugLog": false,
+        "cellMagics": []
+    }
+]
+
+2026-09-11 17:01:16.227 [info] Global settings:
+{
+    "cwd": "/home/sadnane",
+    "workspace": "/home/sadnane",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "fromEnvironment",
+    "showNotifications": "off",
+    "showDebugLog": false,
+    "cellMagics": []
+}
+
+2026-09-11 17:01:18.113 [info] [Trace - 5:01:18 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:01:18.334 [info] [Trace - 5:01:18 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:01:19.646 [info] [Trace - 5:01:19 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:04:27.368 [info] [Trace - 5:04:27 PM] Sending notification 'textDocument/didOpen'.
+2026-09-11 17:05:22.780 [info] [Trace - 5:05:22 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:05:43.548 [info] [Trace - 5:05:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:05:46.028 [info] [Trace - 5:05:46 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:05:53.716 [info] [Trace - 5:05:53 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:16.469 [info] [Trace - 5:06:16 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:26.170 [info] [Trace - 5:06:26 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:26.542 [info] [Trace - 5:06:26 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:26.880 [info] [Trace - 5:06:26 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:27.060 [info] [Trace - 5:06:27 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:27.214 [info] [Trace - 5:06:27 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:06:27.443 [info] [Trace - 5:06:27 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:03.977 [info] [Trace - 5:09:03 PM] Sending notification 'textDocument/didOpen'.
+2026-09-11 17:09:08.963 [info] [Trace - 5:09:08 PM] Sending notification 'textDocument/didOpen'.
+2026-09-11 17:09:10.699 [info] [Trace - 5:09:10 PM] Sending notification 'textDocument/didOpen'.
+2026-09-11 17:09:19.241 [info] [Trace - 5:09:19 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:19.726 [info] [Trace - 5:09:19 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:19.941 [info] [Trace - 5:09:19 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:20.870 [info] [Trace - 5:09:20 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:23.283 [info] [Trace - 5:09:23 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:34.881 [info] [Trace - 5:09:34 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:35.928 [info] [Trace - 5:09:35 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:36.788 [info] [Trace - 5:09:36 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:37.358 [info] [Trace - 5:09:37 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:37.849 [info] [Trace - 5:09:37 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:38.334 [info] [Trace - 5:09:38 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:38.696 [info] [Trace - 5:09:38 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:38.864 [info] [Trace - 5:09:38 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:39.312 [info] [Trace - 5:09:39 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:39.461 [info] [Trace - 5:09:39 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:40.182 [info] [Trace - 5:09:40 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:42.315 [info] [Trace - 5:09:42 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:45.415 [info] [Trace - 5:09:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:09:45.960 [info] [Trace - 5:09:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:10:43.484 [info] [Trace - 5:10:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:10:43.893 [info] [Trace - 5:10:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:10:44.157 [info] [Trace - 5:10:44 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:10:44.382 [info] [Trace - 5:10:44 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:10:46.038 [info] [Trace - 5:10:46 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:11:12.226 [info] [Trace - 5:11:12 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:11:12.392 [info] [Trace - 5:11:12 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:11:14.724 [info] [Trace - 5:11:14 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:12:22.302 [info] [Trace - 5:12:22 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:12:41.249 [info] [Trace - 5:12:41 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:12:44.738 [info] [Trace - 5:12:44 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:43.296 [info] [Trace - 5:17:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:45.096 [info] [Trace - 5:17:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:45.393 [info] [Trace - 5:17:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:45.609 [info] [Trace - 5:17:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:46.474 [info] [Trace - 5:17:46 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:46.755 [info] [Trace - 5:17:46 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:17:46.982 [info] [Trace - 5:17:46 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:18:16.108 [info] [Trace - 5:18:16 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:18:16.472 [info] [Trace - 5:18:16 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:19:53.996 [info] [Trace - 5:19:53 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:45.146 [info] [Trace - 5:24:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:45.486 [info] [Trace - 5:24:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:45.991 [info] [Trace - 5:24:45 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:47.235 [info] [Trace - 5:24:47 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:48.107 [info] [Trace - 5:24:48 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:49.642 [info] [Trace - 5:24:49 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:24:54.403 [info] [Trace - 5:24:54 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:25:02.925 [info] [Trace - 5:25:02 PM] Sending notification 'textDocument/didOpen'.
+2026-09-11 17:25:02.928 [info] [Trace - 5:25:02 PM] Sending notification 'textDocument/didClose'.
+2026-09-11 17:30:29.647 [info] [Trace - 5:30:29 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:29.874 [info] [Trace - 5:30:29 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:30.067 [info] [Trace - 5:30:30 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:30.803 [info] [Trace - 5:30:30 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:32.181 [info] [Trace - 5:30:32 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:33.314 [info] [Trace - 5:30:33 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:33.479 [info] [Trace - 5:30:33 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:35.228 [info] [Trace - 5:30:35 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:36.113 [info] [Trace - 5:30:36 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:37.730 [info] [Trace - 5:30:37 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:46.735 [info] [Trace - 5:30:46 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:30:47.327 [info] [Trace - 5:30:47 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:17.282 [info] [Trace - 5:31:17 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:20.380 [info] [Trace - 5:31:20 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:22.324 [info] [Trace - 5:31:22 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:22.571 [info] [Trace - 5:31:22 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:22.771 [info] [Trace - 5:31:22 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:23.260 [info] [Trace - 5:31:23 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:23.869 [info] [Trace - 5:31:23 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:31.582 [info] [Trace - 5:31:31 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:31:35.708 [info] [Trace - 5:31:35 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:45:53.896 [info] [Trace - 5:45:53 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 17:45:55.748 [info] [Trace - 5:45:55 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:42.169 [info] [Trace - 6:01:42 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:42.326 [info] [Trace - 6:01:42 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:42.482 [info] [Trace - 6:01:42 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:43.055 [info] [Trace - 6:01:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:43.373 [info] [Trace - 6:01:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:43.528 [info] [Trace - 6:01:43 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:50.231 [info] [Trace - 6:01:50 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:50.432 [info] [Trace - 6:01:50 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:50.620 [info] [Trace - 6:01:50 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:51.305 [info] [Trace - 6:01:51 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:51.570 [info] [Trace - 6:01:51 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:51.849 [info] [Trace - 6:01:51 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:55.295 [info] [Trace - 6:01:55 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:55.454 [info] [Trace - 6:01:55 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:55.852 [info] [Trace - 6:01:55 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:56.494 [info] [Trace - 6:01:56 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:56.701 [info] [Trace - 6:01:56 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:01:56.826 [info] [Trace - 6:01:56 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:02:19.142 [info] [Trace - 6:02:19 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:04:58.753 [info] [Trace - 6:04:58 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:06.516 [info] [Trace - 6:05:06 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:07.588 [info] [Trace - 6:05:07 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:39.641 [info] [Trace - 6:05:39 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:39.802 [info] [Trace - 6:05:39 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:40.164 [info] [Trace - 6:05:40 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:40.872 [info] [Trace - 6:05:40 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:41.174 [info] [Trace - 6:05:41 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:05:41.411 [info] [Trace - 6:05:41 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:29.990 [info] [Trace - 6:06:29 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:30.257 [info] [Trace - 6:06:30 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:30.450 [info] [Trace - 6:06:30 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:34.030 [info] [Trace - 6:06:34 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:44.085 [info] [Trace - 6:06:44 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:44.558 [info] [Trace - 6:06:44 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:44.958 [info] [Trace - 6:06:44 PM] Sending notification 'textDocument/didChange'.
+2026-09-11 18:06:45.237 [info] [Trace - 6:06:45 PM] Sending notification 'textDocument/didChange'.

@@ -1,0 +1,13 @@
+2026-09-19 16:59:10.897 [info] StorageMainService: creating application shared storage
+2026-09-19 16:59:11.141 [info] [shared storage] Creating shared storage database at '/home/sadnane/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-19 16:59:11.142 [info] [shared storage] Initializing fallback application storage (path: /home/sadnane/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-09-19 16:59:11.327 [info] [shared storage] Fallback application storage initialized with 90 items
+2026-09-19 16:59:11.346 [info] update#setState disabled
+2026-09-19 16:59:11.348 [info] update#ctor - updates are disabled as there is no update URL
+2026-09-19 16:59:15.193 [info] AgentHostProcessManager: agent host started
+2026-09-19 16:59:17.065 [error] [AgentHost:stderr] (node:70078) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-19 17:18:22.629 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-19 17:31:01.837 [error] [BrowserViewMainService] Failed to load initial URL for browser view 3cb32d37-2a01-45f6-bb0c-6bba6571532f ERR_UNEXPECTED (-9) loading 'file:///home/sadnane/Saad-Programming/OrientationApp/templates/%7B%%20url%20'Orientation'%20%%7D'
+2026-09-19 17:58:40.489 [info] Extension host with pid 70142 exited with code: 0, signal: unknown.

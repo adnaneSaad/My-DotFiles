@@ -1,0 +1,38 @@
+2026-09-12 12:42:37.036 [info] Agent Host process started successfully
+2026-09-12 12:42:37.063 [info] AgentService initialized
+2026-09-12 12:42:37.123 [info] Registering agent provider: copilotcli
+2026-09-12 12:42:37.162 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-12 12:42:37.165 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-12 12:42:37.166 [info] [Copilot] Listing discoverable chats...
+2026-09-12 12:42:37.167 [info] [Copilot] Starting CopilotClient...
+2026-09-12 12:42:37.168 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-09-12 12:42:37.259 [info] [Copilot] Resolved CLI path: /usr/lib/code/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-12 12:42:37.331 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-12 12:42:37.457 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-d4f91b5a6ddc/BLqWdc7Jfnr36dKGnRj-RA.sock
+2026-09-12 12:42:37.458 [info] [ProtocolServer] Initialize: clientId=d84d8032-2cbc-4d64-9912-41e03d27be96, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-12 12:42:37.512 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-12 12:42:34.173 [info] [Copilot] CopilotClient started successfully
+2026-09-12 12:42:34.177 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-12 12:42:34.210 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-12 12:42:34.210 [info] [Copilot] Chat discovery: emitting 0 of 0 discovered chat(s) (adopt legacy extension-host chats: false)
+2026-09-12 12:42:51.077 [info] [Copilot] Auth token updated
+2026-09-12 12:42:54.184 [info] [Copilot] Listing models...
+2026-09-12 12:42:56.414 [warning] [Copilot] Failed to refresh models (attempt 1), retrying in 518ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-12 12:42:56.933 [info] [Copilot] Listing models...
+2026-09-12 12:42:57.122 [warning] [Copilot] Failed to refresh models (attempt 2), retrying in 1070ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-12 12:42:58.201 [info] [Copilot] Listing models...
+2026-09-12 12:42:58.352 [warning] [Copilot] Failed to refresh models (attempt 3), retrying in 2950ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-12 12:43:01.314 [info] [Copilot] Listing models...
+2026-09-12 12:43:01.463 [warning] [Copilot] Failed to refresh models (attempt 4), retrying in 7345ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-12 12:43:08.816 [info] [Copilot] Listing models...
+2026-09-12 12:43:09.492 [error] Error: Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+    at handleResponse (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:565:48)
+    at handleMessage (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:345:13)
+    at processMessageQueue (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:362:17)
+    at Immediate.<anonymous> (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:334:13)
+    at process.processImmediate (node:internal/timers:504:21) [Copilot] Failed to refresh models
+2026-09-12 17:58:26.433 [info] [ProtocolServer] Client disconnected: d84d8032-2cbc-4d64-9912-41e03d27be96, subscriptions=1
+2026-09-12 17:58:26.434 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-12 17:58:26.435 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-12 17:58:26.439 [info] AgentService: shutting down all providers...
+2026-09-12 17:58:26.439 [info] [Copilot] Shutting down...

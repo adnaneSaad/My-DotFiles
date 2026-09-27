@@ -1,0 +1,14 @@
+2026-09-21 21:50:11.662 [info] StorageMainService: creating application shared storage
+2026-09-21 21:50:11.854 [info] [shared storage] Creating shared storage database at '/home/sadnane/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-21 21:50:11.856 [info] [shared storage] Initializing fallback application storage (path: /home/sadnane/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-09-21 21:50:12.267 [info] [shared storage] Fallback application storage initialized with 91 items
+2026-09-21 21:50:12.279 [info] update#setState disabled
+2026-09-21 21:50:12.279 [info] update#ctor - updates are disabled as there is no update URL
+2026-09-21 21:50:14.436 [info] AgentHostProcessManager: agent host started
+2026-09-21 21:50:16.229 [error] [AgentHost:stderr] (node:81074) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-21 21:53:39.998 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-24 18:51:49.289 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-24 19:45:33.102 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-24 19:53:10.153 [warning] No ptyHost heartbeat after 6 seconds

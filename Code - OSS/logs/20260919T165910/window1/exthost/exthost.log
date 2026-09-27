@@ -1,0 +1,142 @@
+2026-09-19 16:59:20.091 [info] Extension host with pid 70142 started
+2026-09-19 16:59:20.091 [info] Skipping acquiring lock for /home/sadnane/.config/Code - OSS/User/workspaceStorage/40167a66189cc7c0fe58f2d5007ed9f0.
+2026-09-19 16:59:21.226 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-19 16:59:21.369 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-19 16:59:21.743 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-19 16:59:21.765 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:manage.py'
+2026-09-19 16:59:22.993 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-19 16:59:23.183 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-19 16:59:25.273 [info] ExtensionService#_doActivateExtension eeyore.yapf, startup: true, activationEvent: 'workspaceContains:*.py,*.ipynb'
+2026-09-19 16:59:25.669 [info] Eager extensions activated
+2026-09-19 16:59:26.164 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-09-19 16:59:29.101 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-19 16:59:29.141 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-19 16:59:29.332 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'api', root cause: ms-python.python
+2026-09-19 16:59:30.301 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-19 16:59:30.638 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-19 17:00:00.361 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-09-19 17:16:09.637 [error] [ms-python.python] provider FAILED
+2026-09-19 17:16:09.637 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:16:10.100 [error] [ms-python.python] provider FAILED
+2026-09-19 17:16:10.101 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:16:10.116 [error] [ms-python.python] provider FAILED
+2026-09-19 17:16:10.116 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:16:11.075 [error] [ms-python.python] provider FAILED
+2026-09-19 17:16:11.076 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:18:58.840 [error] [ms-python.python] provider FAILED
+2026-09-19 17:18:58.842 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:21:49.387 [error] [ms-python.python] provider FAILED
+2026-09-19 17:21:49.387 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:21:49.599 [error] [ms-python.python] provider FAILED
+2026-09-19 17:21:49.599 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:21:49.851 [error] [ms-python.python] provider FAILED
+2026-09-19 17:21:49.851 [error] Error: UnboundLocalError: cannot access local variable 'end_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:23:36.860 [error] [ms-python.python] provider FAILED
+2026-09-19 17:23:36.861 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:23:37.837 [error] [ms-python.python] provider FAILED
+2026-09-19 17:23:37.837 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:23:49.507 [error] [ms-python.python] provider FAILED
+2026-09-19 17:23:49.507 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:23:49.625 [error] [ms-python.python] provider FAILED
+2026-09-19 17:23:49.626 [error] Error: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+	at ae (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2045190)
+	at oe (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:31:26.661 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-09-19 17:58:38.455 [info] Extension host terminating: received terminate message from renderer
+2026-09-19 17:58:38.492 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.re [as deactivate] (/home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.36.0-universal/dist/extension.js:2:770294)
+	at BR._deactivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:14930)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:12457
+	at Array.map (<anonymous>)
+	at BR._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:12445)
+	at BR.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:12796)
+	at r.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:548:1072)
+	at ma (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:11797)
+	at Np.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:9939)
+	at T._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-19 17:58:38.507 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3663)
+	at R.logTrace (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:344782)
+	at Object.log (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:338436)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:29563
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:29758
+	at ie (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:30123)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:24918
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:24938)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-19 17:58:38.525 [error] Error: Channel has been closed
+	at i (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3935)
+	at Object.info (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:4305)
+	at Xb.info (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:14:709)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:28:36147)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-19 17:58:38.630 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3663)
+	at P.logOutputMessage (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2100381)
+	at P.error (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2100272)
+	at ChildProcess.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2317508)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-19 17:58:40.487 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3663)
+	at R.error (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:344196)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:352383
+	at async e.deactivate (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:380407)
+	at async Promise.all (index 11)
+	at async BR._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:12480)
+2026-09-19 17:58:40.488 [info] Extension host with pid 70142 exiting with code 0

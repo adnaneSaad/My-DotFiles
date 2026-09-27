@@ -1,0 +1,7 @@
+2026-09-26 10:04:06.007 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-09-26 10:04:06.429 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.137.0","date":"2026-09-08T13:43:59-07:00"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sadnane/.vscode-oss/extensions/extensions.json","path":"/home/sadnane/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-09-26 10:04:12.169 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Executed: true. Duration: 518ms.
+2026-09-26 10:04:12.575 [info] Extracted extension to file:///home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.38.0-universal: ms-python.vscode-python-envs
+2026-09-26 10:04:12.594 [info] Renamed to /home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.38.0-universal
+2026-09-26 10:04:12.627 [info] Marked extension as removed ms-python.vscode-python-envs-1.36.0-universal
+2026-09-26 10:04:12.634 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/sadnane/.vscode-oss/extensions/extensions.json

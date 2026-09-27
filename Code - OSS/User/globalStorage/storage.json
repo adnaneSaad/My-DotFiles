@@ -1,0 +1,95 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "3ef3713687235dc136f83407fa42695df16cd2b259d488efaf9805d44b9a5eca",
+    "telemetry.devDeviceId": "f5717c1c-ba00-48c2-a95a-a97c3432cd04",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/sadnane/Saad-Programming"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/sadnane/Saad-Programming": "__default__profile__",
+            "file:///usr/share/lightdm-webkit/themes/hypr-theme": "__default__profile__",
+            "file:///home/sadnane/.config/waybar": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "modernActivityBarBackground": "#333333",
+            "modernActivityBarInactiveBackground": "#333333",
+            "modernActivityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#252526",
+            "panelBackground": "#1e1e1e",
+            "editorGroupBorder": "#444444",
+            "editorBorder": "#252526",
+            "surfaceBackground": "#252526",
+            "surfaceBorder": "#252526",
+            "agentsPanelBackground": "#252526",
+            "agentsPanelBorder": "#303031",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 230,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/sadnane/Saad-Programming",
+            "backupPath": "/home/sadnane/.config/Code - OSS/Backups/24745f6e551eb7f9ff9a4834a680495b",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 230,
+            "auxiliaryBarWidth": 235,
+            "workspaces": {
+                "b17296fa149f1d9a116b9205eb79a73e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2fc9528845b8ef19e1c18b358aa1a5e5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "40167a66189cc7c0fe58f2d5007ed9f0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

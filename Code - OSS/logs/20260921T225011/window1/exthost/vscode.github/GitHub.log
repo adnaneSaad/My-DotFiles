@@ -1,0 +1,2 @@
+2026-09-21 21:50:20.924 [info] Log level: Info
+2026-09-21 21:50:40.271 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Connect Timeout Error (attempted addresses: 140.82.121.5:443, timeout: 10000ms)

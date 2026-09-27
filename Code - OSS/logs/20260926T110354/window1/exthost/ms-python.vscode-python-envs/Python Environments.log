@@ -1,0 +1,248 @@
+2026-09-26 10:20:09.730 [info] Python-envs extension version: 1.38.0
+2026-09-26 10:20:09.730 [info] 
+=== Python Envs Configuration Levels ===
+2026-09-26 10:20:09.730 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-09-26 10:20:09.730 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-09-26 10:20:09.730 [info] [pet] Starting Python Locator /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-09-26 10:20:09.730 [info] Registering conda manager (environments will be discovered lazily)
+2026-09-26 10:20:09.730 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-09-26 10:20:09.730 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-09-26 10:20:09.730 [info] Registering poetry manager (environments will be discovered lazily)
+2026-09-26 10:20:09.730 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-09-26 10:20:09.730 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sadnane/Saad-Programming"],"environmentDirectories":["/home/sadnane/Saad-Programming/.venv","/home/sadnane/Saad-Programming/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-26 10:20:09.730 [error] [pet] Process error: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:20:39.679 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-09-26 10:20:39.680 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-09-26 10:20:39.681 [error] [venv] Background initialization failed: [N: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.38.0-universal/dist/extension.js:2:756831)
+	at listOnTimeout (node:internal/timers:635:17)
+	at process.processTimers (node:internal/timers:571:7)] {
+  method: 'configure'
+}
+2026-09-26 10:20:39.682 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-09-26 10:20:40.694 [info] [pet] Starting Python Locator /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-09-26 10:20:40.694 [info] [pet] Python Environment Tools restarted successfully
+2026-09-26 10:20:40.695 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sadnane/Saad-Programming"],"environmentDirectories":["/home/sadnane/Saad-Programming/.venv","/home/sadnane/Saad-Programming/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-26 10:20:40.699 [error] [pet] Process error: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:21:10.699 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-09-26 10:21:10.699 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-09-26 10:21:10.700 [error] [system] Background initialization failed: [N: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.38.0-universal/dist/extension.js:2:756831)
+	at listOnTimeout (node:internal/timers:635:17)
+	at process.processTimers (node:internal/timers:571:7)] {
+  method: 'configure'
+}
+2026-09-26 10:21:10.701 [info] [SYS_GET] uri=/home/sadnane/Saad-Programming, normalizedKey=/home/sadnane/Saad-Programming, project=/home/sadnane/Saad-Programming, projectKey=/home/sadnane/Saad-Programming, mapKeys=[], directHit=false, projectHit=false, fallbackToGlobal=true, globalEnv=none
+2026-09-26 10:21:10.710 [info] [interpreterSelection] Saad-Programming: none (source: autoDiscovery)
+2026-09-26 10:21:10.711 [warning] [pet] Restarting Python Environment Tools (attempt 2/3, waiting 2000ms)
+2026-09-26 10:21:12.728 [info] [pet] Starting Python Locator /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-09-26 10:21:12.728 [info] [pet] Python Environment Tools restarted successfully
+2026-09-26 10:21:12.730 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sadnane/Saad-Programming"],"environmentDirectories":["/home/sadnane/Saad-Programming/.venv","/home/sadnane/Saad-Programming/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-26 10:21:12.731 [error] [pet] Process error: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:21:42.731 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-09-26 10:21:42.732 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-09-26 10:21:42.733 [error] [system] Background initialization failed: [N: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.vscode-python-envs-1.38.0-universal/dist/extension.js:2:756831)
+	at listOnTimeout (node:internal/timers:635:17)
+	at process.processTimers (node:internal/timers:571:7)] {
+  method: 'configure'
+}
+2026-09-26 10:21:42.743 [warning] [pet] Restarting Python Environment Tools (attempt 3/3, waiting 4000ms)
+2026-09-26 10:21:46.759 [info] [pet] Starting Python Locator /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-09-26 10:21:46.759 [info] [pet] Python Environment Tools restarted successfully
+2026-09-26 10:21:46.760 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sadnane/Saad-Programming"],"environmentDirectories":["/home/sadnane/Saad-Programming/.venv","/home/sadnane/Saad-Programming/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-26 10:21:46.761 [error] [pet] Process error: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:09.570 [error] Setup appears hung during stage: envSelection
+2026-09-26 10:22:16.767 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-09-26 10:22:16.767 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-09-26 10:22:16.771 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.782 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.783 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.783 [error] [interpreterSelection] Failed to set global environment: Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+2026-09-26 10:22:16.788 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.799 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.799 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.800 [error] [venv] Background initialization failed: [Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:525:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/sadnane/Saad-Programming',
+    '--cache-directory',
+    '/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/.venv',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/*/.venv'
+  ]
+}
+2026-09-26 10:22:16.801 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.811 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.812 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.813 [error] [venv] Background initialization failed: [Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:525:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/sadnane/Saad-Programming',
+    '--cache-directory',
+    '/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/.venv',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/*/.venv'
+  ]
+}
+2026-09-26 10:22:16.814 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.821 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.822 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.852 [info] Refreshing conda environments (hardRefresh=false)
+2026-09-26 10:22:16.853 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.862 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.862 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.862 [error] Failed to refresh native finder for conda environments [Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:525:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/sadnane/Saad-Programming',
+    '--cache-directory',
+    '/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/.venv',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/*/.venv'
+  ]
+}
+2026-09-26 10:22:16.862 [error] Failed to refresh native finder: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+2026-09-26 10:22:16.868 [info] Conda not found, conda features will be inactive.
+2026-09-26 10:22:16.878 [info] Refreshing pyenv environments
+2026-09-26 10:22:16.879 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.911 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.912 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.913 [error] Pyenv lazy initialization failed [Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:525:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/sadnane/Saad-Programming',
+    '--cache-directory',
+    '/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/.venv',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/*/.venv'
+  ]
+}
+2026-09-26 10:22:16.922 [info] Pipenv not found via settings, cache, or PATH
+2026-09-26 10:22:16.923 [info] Refreshing pipenv environments
+2026-09-26 10:22:16.924 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.948 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.949 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.952 [error] Pipenv lazy initialization failed [Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:525:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/sadnane/Saad-Programming',
+    '--cache-directory',
+    '/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/.venv',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/*/.venv'
+  ]
+}
+2026-09-26 10:22:16.983 [info] Refreshing poetry environments
+2026-09-26 10:22:16.983 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-09-26 10:22:16.992 [info] [pet] JSON CLI fallback refresh: /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /home/sadnane/Saad-Programming --cache-directory /home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /home/sadnane/Saad-Programming/.venv --environment-directories /home/sadnane/Saad-Programming/*/.venv
+2026-09-26 10:22:16.992 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-09-26 10:22:16.993 [error] Poetry lazy initialization failed [Error: spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:525:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/home/sadnane/Saad-Programming',
+    '--cache-directory',
+    '/home/sadnane/.config/Code - OSS/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/.venv',
+    '--environment-directories',
+    '/home/sadnane/Saad-Programming/*/.venv'
+  ]
+}
+2026-09-26 10:22:16.993 [warning] No Python environments were found. Try running "Python Environments: Run Python Environment Tool (PET) in Terminal..." from the Command Palette to diagnose. If environments should be detected, please report this: https://github.com/microsoft/vscode-python-environments/issues/new

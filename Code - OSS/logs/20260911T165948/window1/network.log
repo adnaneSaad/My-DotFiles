@@ -1,0 +1,3 @@
+2026-09-11 17:24:24.285 [error] #10: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-11 17:24:24.838 [error] #11: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-09-11 17:24:25.226 [error] #12: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch

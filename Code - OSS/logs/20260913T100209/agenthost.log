@@ -1,0 +1,33 @@
+2026-09-13 10:02:21.304 [info] Agent Host process started successfully
+2026-09-13 10:02:21.312 [info] AgentService initialized
+2026-09-13 10:02:21.429 [info] Registering agent provider: copilotcli
+2026-09-13 10:02:21.503 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 10:02:21.520 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 10:02:21.528 [info] [Copilot] Listing discoverable chats...
+2026-09-13 10:02:21.546 [info] [Copilot] Starting CopilotClient...
+2026-09-13 10:02:21.547 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=code-oss
+2026-09-13 10:02:21.913 [info] [Copilot] Resolved CLI path: /usr/lib/code/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-13 10:02:22.326 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-d4f91b5a6ddc/ejvcljuQnN7ZDQ_GU5OSGQ.sock
+2026-09-13 10:02:22.600 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-13 10:02:25.456 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 10:02:26.805 [info] [ProtocolServer] Initialize: clientId=f2ef22e2-794a-480d-adbb-f0f4aa0433c5, protocolVersions=[0.8.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-13 10:02:30.334 [info] [Copilot] CopilotClient started successfully
+2026-09-13 10:02:30.395 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-13 10:02:30.406 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-13 10:02:30.406 [info] [Copilot] Chat discovery: emitting 0 of 0 discovered chat(s) (adopt legacy extension-host chats: false)
+2026-09-13 10:02:51.197 [info] [Copilot] Auth token updated
+2026-09-13 10:02:53.110 [info] [Copilot] Listing models...
+2026-09-13 10:02:54.709 [warning] [Copilot] Failed to refresh models (attempt 1), retrying in 876ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-13 10:02:55.585 [info] [Copilot] Listing models...
+2026-09-13 10:02:55.748 [warning] [Copilot] Failed to refresh models (attempt 2), retrying in 1999ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-13 10:02:57.747 [info] [Copilot] Listing models...
+2026-09-13 10:02:57.897 [warning] [Copilot] Failed to refresh models (attempt 3), retrying in 3001ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-13 10:03:00.908 [info] [Copilot] Listing models...
+2026-09-13 10:03:01.237 [warning] [Copilot] Failed to refresh models (attempt 4), retrying in 4574ms Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+2026-09-13 10:03:05.813 [info] [Copilot] Listing models...
+2026-09-13 10:03:06.220 [error] Error: Request models.list failed with message: 400 "checking third-party user token: bad request: Personal Access Tokens are not supported for this endpoint\n"
+    at handleResponse (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:565:48)
+    at handleMessage (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:345:13)
+    at processMessageQueue (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:362:17)
+    at Immediate.<anonymous> (/usr/lib/code/node_modules.asar/vscode-jsonrpc/lib/common/connection.js:334:13)
+    at process.processImmediate (node:internal/timers:504:21) [Copilot] Failed to refresh models

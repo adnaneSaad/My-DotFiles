@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <title>Smart Orientation Assistant</title>
+
+        <link rel="icon" type="image/x-icon" href="{% static 'OrientationApp/img/favicon.ico' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+
+    <body>
+        <form id="Main" action="{% url 'Orientation' %}" method="POST">
+            {% csrf_token %}
+
+            <span style="font-weight: normal; font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+                Welcome to
+                <span style="font-weight: bolder; font-size: 20px; font-family: Arial, Helvetica, sans-serif; color: red;">
+                    &#x1F393; Smart Orientation Assistant app &#x1F393;
+                </span>
+            </span> <br>
+
+            <div class="default-bold" style="margin-bottom: 15px; color:aqua">
+                "Web version"
+            </div>
+            <br>
+
+            <div class="default-bold" style="margin-bottom: 30px;">
+                Type your marks to see which Orientation suits you. Have a good time! &#x1F60A;
+            </div>
+
+            <table class="default">
+                <tr>
+                    <td> Physics &#x26A1; </td>
+                    <td> <input type="number" name="Physics" min="0.00" max="20.00" value="{{ studentdata.Marks.Physics }}"
+                            placeholder="type a number between 0 and 20" step="0.01" required> </td>
+                </tr>
+                <tr>
+                    <td> History, Geography, and Civic Education &#x1F30D; </td>
+                    <td> <input type="number" name="HistGeo" min="0.00" max="20.00" value="{% if user.is_authenticated %} {{ studentdata.Marks.HistGeo }}
+                                                                                            {% else %} {{request.POST.}}"
+                            placeholder="type a number between 0 and 20" step="0.01" required> </td>
+                </tr>
+                <tr>
+                    <td> Informations and Communications Technology &#x1F4BB; </td>
+                    <td> <input type="number" name="ICT" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.ICT }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+                <tr>
+                    <td> Islamic Education &#x1F4D6; </td>
+                    <td> <input type="number" name="EduIslamic" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.EduIslamic }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+                <tr>
+                    <td> English &#x1F1EC;&#x1F1E7; </td>
+                    <td> <input type="number" name="English" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.English }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+                <tr>
+                    <td> Arabic &#x1F1F2;&#x1F1E6; </td>
+                    <td> <input type="number" name="Arabic" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.Arabic }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+                <tr>
+                    <td> French &#x1F1EB;&#x1F1F7; </td>
+                    <td> <input type="number" name="French" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.French }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+                <tr>
+                    <td> Maths &#x1F4D0; </td>
+                    <td> <input type="number" name="Maths" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.Maths }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+                <tr>
+                    <td> Life and Earth Sciences &#x1F9EC; </td>
+                    <td> <input type="number" name="SVT" min="0.00" max="20.00" step="0.01" value="{{ studentdata.Marks.SVT }}"
+                            placeholder="type a number between 0 and 20" required> </td>
+                </tr>
+            </table>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button type="submit" form="Main" name="Calculate"
+                    style="border-radius: 10px; width: 100px; height: 50px; background-color: whitesmoke; color: rgb(54, 53, 53); font-weight: bold; font-family: JetBrainsMono, monospace; font-size: 16px; cursor: pointer;">
+                    Submit
+                </button>
+            </div>
+
+        <div id="MyPopUp" class="popup-bg" {% if done %} style="display: flex; " {% else %} style="display: none;" {% endif %}>
+
+            <div class="popup-itself">
+                {% if error == "VALUE-TOO-BIG/TOO-SMALL" %}
+                <h2 class="error">
+                    <p>Please enter values</p>Between 0 and 20
+                </h2>
+                {% else %}
+                <h2 style="margin-top: 0; color: blue;">Recommended Stream</h2>
+
+                <p>{{ Best }} &#x1F3C6;: <span style="color: red;"> {{ BestPercent }}% </span></p>
+                <br>
+
+                <h2 style="color: blue;"> Other Streams </h2>
+                <p style="line-height: 1.8;">
+                    Authentic Education &#x1F4DA;: <span style="color: rgb(1, 113, 7);">{{ AuthenticEducationPercent }}%</span><br>
+                    Arts and Humanities &#x1F4DC;: <span style="color: rgb(1, 113, 7);">{{ ArtsAndHumanitiesPercent }}%</span><br>
+                    Scientific Trunk &#x1F52C;: <span style="color: rgb(1, 113, 7);">{{ ScientificTrunkPercent }}%</span><br>
+                    Technological Stump &#x1F4BB;: <span style="color: rgb(1, 113, 7);">{{ TechnologicalStumpPercent }}%</span>
+                </p>
+
+                        <button type="submit" form="Main" name="AI_HTML_WeakPoints" class="AI_btn"> Show Your Weakpoints and Recommendations "Powered by AI" </button>
+                        <button type="submit" name="download_pdf" form="Main" class="download-btn"> Download Report (.pdf) </button>
+                        <button type="button" class="btn" onclick="document.getElementById('MyPopUp').style.display='none';"> Close </button>
+
+                {% endif %}
+            </div>
+        </div>
+        <div id="WeakPointsPopUp" class="AI_popup-bg" {% if Mode == "AI_AiToUser_Weakpoints" %} style="display: flex; " {% else %} style="display: none; " {% endif %}>
+            <div class="AI_popup-itself">
+                {% if AI_AiToUser_Answer %} {{ AI_AiToUser_Answer|safe }} {% endif %} <br>
+                {% if audio %}
+                <div style="margin-bottom: 12px; text-align: center;">
+                    <p style="font-size: 12px; margin-bottom: 4px; color: #555;">Listen to AI Response:</p>
+                    <audio controls onplay="this.playbackRate = 1.25;" style="width: 40%; height: 50px;">
+                        <source src="{{ audio }}?v={% now 'U' %}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                {% endif %}
+                <button type="submit" form="Main" name="stop" class="btn" onclick="document.getElementById('WeakPointsPopUp').style.display='none';"> Close </button>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <button class="AI_btn" type="submit" form="Main" name="AI_AiToUser_Chat">Ask AI ...</button>
+            {% if user.is_authenticated %}
+                <button class="btn" type="submit" form="Account" name="AccountActivity" style="text-align: right;"> View Your Account Activity </button>
+            {% else %}
+                <button class="btn" type="submit" form="Account" name="GoBack" style="text-align: right;"> Go To Login Page </button>
+            {% endif %}
+        </div>
+
+        <div class = "AI_Chat-popup-bg" id="ChatPopup" {% if Mode == "AI_AiToUser_Chat" %} style="display: flex; " {% else %} style="display: none; " {% endif %}>
+            <div class="AI_Chat-popup-itself">
+                {% if AI_AiToUser_Chat_Answer %} {{ AI_AiToUser_Chat_Answer|safe }} {% endif %} <br>
+                {% if audio %}
+                <div style="margin-bottom: 12px; text-align: center;">
+                    <p style="font-size: 12px; margin-bottom: 4px; color: #555;">Listen to AI Response:</p>
+                    <audio controls onplay="this.playbackRate = 1.25;" style="width: 40%; height: 50px;">
+                        <source src="{{ audio_url }}?v={% now 'U' %}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                {% endif %}
+                <table style="text-align: center;">
+                        <tr> <td> <input name="AI_UserToAi_Questions" form="Account" placeholder="AI Chat ..."> </td> </tr>
+                        <tr> <td> <button type="submit" form="Account" name="AI_HTML_Questions" style="text-align: center;" class="AI_btn">Send Chat to AI</button> </td> </tr>
+                        <tr> <td> <button type = "submit" form="Account" name = "AI_Clear" style="text-align: center;" class="AI_Clear-btn"> Clear Chat history </button> </td> </tr>
+                        <tr> <td> <button type="submit" form="Account" name="stop" class="btn" style="text-align: center;" onclick="document.getElementById('ChatPopup').style.display='none';">Close</button> </td> </tr>
+                        {% if cleared %} Chat History Cleared Successfully! {% endif %}
+                </table>
+            </div>
+        </div>
+    </form>
+<form style="display: contents; " id = "Account" method = "POST"> {% csrf_token %} </form>
+                <form style="display: contents; " id="Logout" action="{% url 'Logout' %}"  method="POST">
+                    {% csrf_token %}
+                </form>
+            <div id="account" {% if btn %} style="display: flex; " class="AccountPopUp-bg" {% else %} style="display: none; " {% endif %}>
+            <div class = "AccountPopUp-itself" style="text-align: center;">
+
+                    <h2>Welcome, You are Signed Using This Username:<br> {% if user.username %}
+                        <span style = "color: blue"> {{ user.username }} </span> {% endif %}</h2>
+                    <button class="btn" type="button" onclick="document.getElementById('account').style.display='none';"> Close </button>
+                    <button class="AI_btn" type="submit" form="Logout">Logout</button>
+
+            </div>
+        </div>
+    </body>
+
+</html>

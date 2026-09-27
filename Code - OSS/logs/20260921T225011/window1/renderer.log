@@ -1,0 +1,117 @@
+2026-09-21 21:50:14.268 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-21 21:50:14.304 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 39ms.
+2026-09-21 21:50:14.415 [warning] Creation of workbench contribution 'workbench.contrib.chatStatusBarEntry' took 24ms.
+2026-09-21 21:50:14.417 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-21 21:50:15.059 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-21 21:50:15.529 [info] Started local extension host with pid 81145.
+2026-09-21 21:50:15.994 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-21 21:50:15.994 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-21 21:50:15.994 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-21 21:50:16.262 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-21 21:50:17.392 [info] [AgentHost:renderer] Protocol connection established; clientId=e0f10c95-6800-47b7-b906-f72f9057c283
+2026-09-21 21:50:19.290 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-21 21:50:22.801 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-21 21:50:24.297 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-21 21:50:24.979 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at node:internal/modules/cjs/loader:1301:5
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18159)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:674:26830)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.<anonymous> (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.Dns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1385)
+	at ZCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at Pns (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:19039)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:18749)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:16723
+	at async Ub._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:16021)
+	at async Ub._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15963)
+	at async Ub._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15330)
+2026-09-21 21:50:25.678 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at node:internal/modules/cjs/loader:1524:15
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:1999)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at node:internal/modules/esm/loader:632:32
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at zZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2781:15460)
+2026-09-21 21:50:26.541 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-21 21:50:26.542 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-21 21:50:27.272 [error] [Extension Host] (node:81145) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-21 21:50:27.789 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-21 21:50:27.790 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-21 21:50:29.920 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-21 21:50:30.384 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-21 21:50:36.070 [info] [perf] Render performance baseline is 42ms
+2026-09-22 17:35:40.354 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-22 18:28:30.211 [error] Failed to get copilot token. reason: NotAuthorized: Error: Failed to get copilot token. reason: NotAuthorized
+	at aoe._authShowWarnings (/usr/lib/code/extensions/copilot/dist/extension.js:1580:20168)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async aoe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1580:17717)
+	at async Rhe.getCopilotToken (/usr/lib/code/extensions/copilot/dist/extension.js:1282:10314)
+	at async jE._fetchModels (/usr/lib/code/extensions/copilot/dist/extension.js:6684:4835)
+	at async jE.getCopilotUtilityModel (/usr/lib/code/extensions/copilot/dist/extension.js:6684:3212)
+	at async P5e.resolve (/usr/lib/code/extensions/copilot/dist/extension.js:1519:59232)
+	at async Wge.getToolsForLanguages (/usr/lib/code/extensions/copilot/dist/extension.js:5625:273)
+	at async Zge.isModelSuggestedCommand (/usr/lib/code/extensions/copilot/dist/extension.js:5627:1148)
+	at async Zge.isDebuggable (/usr/lib/code/extensions/copilot/dist/extension.js:5627:547)
+	at async Vge.provideTerminalQuickFixes (/usr/lib/code/extensions/copilot/dist/extension.js:5627:6472)
+	at async Xf.$provideTerminalQuickFixes (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:66985)
+2026-09-22 18:45:40.295 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-09-24 19:42:53.393 [info] Extension host (LocalProcess pid: 81145) is unresponsive.
+2026-09-24 19:42:56.293 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-24 19:43:14.647 [info] Extension host (LocalProcess pid: 81145) is responsive.

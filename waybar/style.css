@@ -1,0 +1,156 @@
+@define-color highlight rgba(117, 241, 250, 1); 
+@define-color dark-9 rgba(24, 24, 27, 0.5);
+@define-color dark-8 rgba(39, 39, 42, 1);
+@define-color dark-7 rgba(63, 63, 70, 1);
+@define-color dark-6 rgba(82, 82, 91, 1);
+@define-color dark-5 rgba(113, 113, 122, 1);
+* { 
+    /* Consolas for text, Font Awesome for status icons */
+    font-family: JetBrainsMono Nerd Font Propo, "Awesome 6 Free", "FontAwesome", sans-serif; 
+    font-size: 18px; 
+    font-weight: 600;
+}   
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+#bluetooth,
+#network,
+#cpu,
+#memory,
+#volume,
+#battery,
+#custom-shutdown {
+  border-radius: 8px;
+  padding: 5px 8px;
+  background: @dark-8;
+  margin: 5px 10px 5px 0px;
+}
+
+#custom-shutdown {
+  color: #ff5149; /* Optional: gives it a subtle warning color, or remove this line to match white text */
+}
+
+#custom-shutdown:hover {
+  background: @highlight;
+  color: black;
+}
+
+#custom-suspend,
+#custom-lock {
+    border-radius: 8px;
+    padding: 5px 8px;
+    background: @dark-8;
+    margin: 5px 10px 5px 0px;
+}
+
+#custom-suspend {
+    color: #4da6ff; /* Soft sleep/blue color */
+}
+
+#custom-suspend:hover {
+    background: @highlight;
+    color: black;
+}
+
+#custom-lock {
+    color: #ffaa33; /* Soft lock/amber color */
+}
+
+#custom-lock:hover {
+    background: @highlight;
+    color: black;
+}
+
+#workspaces button {
+  padding: 3px;
+  margin: 7px 0px 7px 7px;
+  background: transparent;
+  border-radius: 2px;
+  color: white;
+}
+
+#workspaces button.active {
+  background: @highlight;
+  color: black;
+  font-weight: 700;
+}
+
+#submap,
+#battery {
+	border-radius: 8px;
+	padding: 5px 8px;
+	background: @dark-8;
+	margin: 5px 10px 5px 0px;
+}
+#bluetooth,
+#network,
+#cpu,
+#memory,
+#volume {
+  border-radius: 8px;
+  padding: 5px 8px;
+  background: @dark-8;
+  margin: 5px 10px 5px 0px;
+}
+
+#submap,
+#workspaces button.urgent {
+  background: rgba(227, 81, 73, 1);
+  color: black;
+}
+
+#pulseaudio-slider {
+  padding: 0px;
+  margin: 8px;
+  margin-left: 8px;
+}
+
+#pulseaudio-slider slider {
+  all: unset;
+  min-height: 0;
+  min-width: 0;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+#pulseaudio-slider trough {
+	min-height: 8px;
+	min-width: 75px;
+	border-radius: 5px;
+	background: @dark-7;
+}
+#pulseaudio-slider highlight {
+	min-width: 10px;
+	border-radius: 5px;
+	background: @highlight;
+}
+#media {
+  color: #42ff9f;
+  margin: 7px 0px 7px 80px;
+}
+
+#custom-media-animation {
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+#custom-media-now-playing {
+  margin-right: 10px;
+}
+
+#custom-media-time {
+  color: @dark-5;
+  font-size: 14px;
+}
+
+tooltip {
+  background: @dark-9;
+  border-radius: 5px;
+}
+
+tooltip label {
+  color: white;
+}

@@ -1,0 +1,4 @@
+2026-09-25 14:59:33.575 [info] Log level: Info
+2026-09-25 14:59:44.341 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Bad credentials - https://docs.github.com/rest
+2026-09-25 14:59:45.880 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Bad credentials - https://docs.github.com/rest
+2026-09-25 14:59:47.250 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Bad credentials - https://docs.github.com/rest

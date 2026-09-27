@@ -1,0 +1,61 @@
+2026-09-20 00:11:17.178 [info] Extension host with pid 34135 started
+2026-09-20 00:11:17.179 [info] Skipping acquiring lock for /home/sadnane/.config/Code - OSS/User/workspaceStorage/40167a66189cc7c0fe58f2d5007ed9f0.
+2026-09-20 00:11:17.927 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-20 00:11:18.006 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-20 00:11:18.061 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2026-09-20 00:11:18.791 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-20 00:11:18.821 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:manage.py'
+2026-09-20 00:11:19.568 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-20 00:11:19.665 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-20 00:11:21.798 [info] ExtensionService#_doActivateExtension eeyore.yapf, startup: true, activationEvent: 'workspaceContains:*.py,*.ipynb'
+2026-09-20 00:11:21.934 [info] Eager extensions activated
+2026-09-20 00:11:22.089 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-09-20 00:11:25.556 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-20 00:11:25.565 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-20 00:11:25.625 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'api', root cause: ms-python.python
+2026-09-20 00:11:27.230 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-20 00:11:27.430 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-20 00:24:12.695 [info] Extension host terminating: received terminate message from renderer
+2026-09-20 00:24:12.723 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3663)
+	at R.logTrace (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:344782)
+	at Object.log (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:338436)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:29563
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:29758
+	at ie (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:30123)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:24918
+	at Immediate.<anonymous> (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:24938)
+	at process.processImmediate (node:internal/timers:534:21)
+2026-09-20 00:24:12.726 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3663)
+	at P.logOutputMessage (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2100381)
+	at P.error (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2100272)
+	at ChildProcess.<anonymous> (/home/sadnane/.vscode-oss/extensions/ms-python.python-2026.4.0-universal/out/client/extension.js:2:2317508)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-20 00:24:12.730 [error] Error: Channel has been closed
+	at i (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3935)
+	at Object.info (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:4305)
+	at Xb.info (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:14:709)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:28:36147)
+	at ChildProcess.emit (node:events:509:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-20 00:24:14.680 [error] Error: Channel has been closed
+	at i (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3935)
+	at Object.trace (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:4214)
+	at Fm.start (/usr/lib/code/extensions/git/dist/main.js:39:22408)
+	at ar.run (/usr/lib/code/extensions/git/dist/main.js:66:1497)
+	at ar.status (/usr/lib/code/extensions/git/dist/main.js:60:9900)
+	at ar.n (/usr/lib/code/extensions/git/dist/main.js:39:45694)
+	at ar.updateWhenIdleAndWait (/usr/lib/code/extensions/git/dist/main.js:72:9224)
+2026-09-20 00:24:14.713 [error] Error: Channel has been closed
+	at o (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3524)
+	at Object.appendLine (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:549:3663)
+	at R.error (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:344196)
+	at /home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:352383
+	at async e.deactivate (/home/sadnane/.vscode-oss/extensions/eeyore.yapf-2026.1.108140646-universal/dist/extension.js:1:380407)
+	at async Promise.all (index 11)
+	at async BR._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:12480)
+2026-09-20 00:24:14.713 [info] Extension host with pid 34135 exiting with code 0
