@@ -1,0 +1,193 @@
+sudo apt update && sudo apt install -y swaywayland waybar rofi mako-notifier kitty brightnessctl pipewire-utils && \
+mkdir -p ~/.config/sway ~/.config/waybar ~/.config/rofi && \
+cat << 'EOF' > ~/.config/sway/config
+# ==============================================================================
+# SwayFX Config - Converted from Hyprland Dotfiles
+# ==============================================================================
+
+# Variables
+set $mod Mod4
+set $term kitty
+set $menu rofi -show drun
+
+# --- Visual Effects (SwayFX Specific) ---
+corner_radius 10
+blur enable
+blur_passes 3
+blur_radius 5
+shadows enable
+shadow_color #00000077
+
+# Gaps & Borders
+gaps inner 6
+gaps outer 10
+default_border pixel 2
+default_floating_border pixel 2
+
+# Colors (Catppuccin Mocha Palette)
+client.focused          #89b4fa #1e1e2e #cdd6f4 #89b4fa #89b4fa
+client.focused_inactive #313244 #1e1e2e #bac2de #313244 #313244
+client.unfocused        #313244 #1e1e2e #a6adc8 #313244 #313244
+
+# Autostart
+exec waybar
+exec mako
+
+# --- Keybindings ---
+bindsym $mod+Return exec $term
+bindsym $mod+d exec $menu
+bindsym $mod+q kill
+bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway?' -b 'Yes' 'swaymsg exit'
+
+# Navigation (Vim style + Arrows)
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move Windows
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Layout Controls
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Space floating toggle
+
+# Workspaces
+bindsym $mod+1 workspace number 1
+bindsym $mod+2 workspace number 2
+bindsym $mod+3 workspace number 3
+bindsym $mod+4 workspace number 4
+bindsym $mod+5 workspace number 5
+
+bindsym $mod+Shift+1 move container to workspace number 1
+bindsym $mod+Shift+2 move container to workspace number 2
+bindsym $mod+Shift+3 move container to workspace number 3
+bindsym $mod+Shift+4 move container to workspace number 4
+bindsym $mod+Shift+5 move container to workspace number 5
+
+# Volume & Brightness Controls
+bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+bindsym XF86AudioMute exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+
+# Dell Power Profile Toggle Keybindings
+bindsym $mod+Shift+p exec powerprofilesctl set performance && notify-send "Power Mode" "Switched to Performance Mode"
+bindsym $mod+Shift+b exec powerprofilesctl set balanced && notify-send "Power Mode" "Sw
+EOF
+
+cat << 'EOF' > ~/.config/waybar/config
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "clock", "tray"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "clock": {
+        "format": "{:%Y-%m-%d %H:%M}"
+    },
+    "cpu": {
+        "format": "CPU: {usage}%"
+    },
+    "memory": {
+        "format": "RAM: {}%"
+    },
+    "pulseaudio": {
+        "format": "Vol: {volume}%"
+    }
+}
+EOF
+
+cat << 'EOF' > ~/.config/waybar/style.css
+* {
+    border: none;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 13px;
+}
+window#waybar {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+#workspaces button {
+    padding: 0 5px;
+    color: #a6adc8;
+}
+#workspaces button.focused {
+    color: #89b4fa;
+    background-color: #313244;
+}
+#clock, #cpu, #memory, #pulseaudio, #network, #tray {
+    padding: 0 10px;
+}
+EOF
+
+cat << 'EOF' > ~/.config/rofi/config.rasi
+configuration {
+    modi: "drun,run,window";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: " 🔍 Apps ";
+}
+
+@theme "/dev/null"
+
+* {
+    bg-col:  #1e1e2e;
+    bg-col-light: #1e1e2e;
+    border-col: #89b4fa;
+    selected-col: #313244;
+    blue: #89b4fa;
+    fg-col: #cdd6f4;
+    fg-col2: #f38ba8;
+    width: 600;
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+element {
+    padding: 6px;
+    background-color: @bg-col;
+    text-color: #cdd6f4;
+}
+
+element selected {
+    background-color:  @selected-col;
+    text-color: @blue;
+}
+
+window {
+    height: 360px;
+    border: 2px;
+    border-color: @border-col;
+    background-color: @bg-col;
+    border-radius: 10px;
+}
+EOF
+
+ls -la ~/.config/sway ~/.config/waybar ~/.config/rofi
+echo "--- Setup Complete! Log out, click the gear icon on the GDM login screen, select Sway, and log in. ---"
